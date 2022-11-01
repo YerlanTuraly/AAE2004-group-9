@@ -14,6 +14,13 @@ Members: Yerlan, Namnet, Hang, Frederick, Jophy, Tim & Boey
 
 ## Table of Contents
 * [General Info](#general-information)
+* [Task 1](#
+# Project Name : AAE Group 9
+>
+Members: Yerlan, Namnet, Hang, Frederick, Jophy, Tim & Boey
+
+## Table of Contents
+* [General Info](#general-information)
 * [Task 1](#task-1)
 * [Task 2](#task-2)
 * [Task 3](#task-3)
@@ -21,27 +28,10 @@ Members: Yerlan, Namnet, Hang, Frederick, Jophy, Tim & Boey
 * [Project Status](#project-status)
 
 
-
 ## General Information
 - xxxx
 - xxxx
 - xxxx
-
-
-## Features
-
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
-
-## Screenshots
-![Map](https://user-images.githubusercontent.com/116084608/199166184-395dddd6-52fe-47f4-a31a-b8bfcfbf8c21.jpg)
-
-
-* [Task 1](#task-1)
-* [Task 2](#task-2)
-* [Task 3](#task-3)
 
 
 ## Task 1
@@ -67,8 +57,6 @@ List the ready features here:
 - xxxx
 
 
-
-
 ## Task 3
 List the ready features here:
 - xxxx
@@ -78,26 +66,6 @@ List the ready features here:
 
 ## Screenshots
 - xxxx
-
-
-## Task 2
-- This is filler
-
-
-## Project Status
-
-
-
-## Acknowledgements
-
-
-
-## Contact
-
-
-## Task 3
-List the ready features here:
-- This is filler
 
 ## Project Status
 Project is: in progress
