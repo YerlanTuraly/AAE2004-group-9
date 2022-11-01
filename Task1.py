@@ -1,9 +1,12 @@
 """
-A* grid planning !?
+A* grid planning
 author: Atsushi Sakai(@Atsushi_twi)
         Nikos Kanargias (nkana@tee.gr)
 See Wikipedia article (https://en.wikipedia.org/wiki/A*_search_algorithm)
+This is the simple code for path planning class
 """
+
+
 
 import math
 
@@ -14,7 +17,7 @@ show_animation = True
 
 class AStarPlanner:
 
-    def __init__(self, ox, oy, resolution, rr):
+    def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y):
         """
         Initialize grid map for a star planning
         ox: x position list of Obstacles [m]
@@ -23,16 +26,28 @@ class AStarPlanner:
         rr: robot radius[m]
         """
 
-        self.resolution = resolution
-        self.rr = rr
+        self.resolution = resolution # get resolution of the grid
+        self.rr = rr # robot radis
         self.min_x, self.min_y = 0, 0
         self.max_x, self.max_y = 0, 0
         self.obstacle_map = None
         self.x_width, self.y_width = 0, 0
-        self.motion = self.get_motion_model()
+        self.motion = self.get_motion_model() # motion model for grid search expansion
         self.calc_obstacle_map(ox, oy)
 
-    class Node:
+        self.fc_x = fc_x
+        self.fc_y = fc_y
+        self.tc_x = tc_x
+        self.tc_y = tc_y
+        
+
+        self.Delta_C1 = 0.2 # cost intensive area 1 modifier time
+        self.Delta_C2 = 0.4 # cost intensive area 2 modifier fuel
+
+        self.costPerGrid = 1 
+
+
+    class Node: # definition of a sinle node
         def __init__(self, x, y, cost, parent_index):
             self.x = x  # index of grid
             self.y = y  # index of grid
@@ -56,13 +71,13 @@ class AStarPlanner:
             ry: y position list of the final path
         """
 
-        start_node = self.Node(self.calc_xy_index(sx, self.min_x),
-                               self.calc_xy_index(sy, self.min_y), 0.0, -1)
-        goal_node = self.Node(self.calc_xy_index(gx, self.min_x),
+        start_node = self.Node(self.calc_xy_index(sx, self.min_x), # calculate the index based on given position
+                               self.calc_xy_index(sy, self.min_y), 0.0, -1) # set cost zero, set parent index -1
+        goal_node = self.Node(self.calc_xy_index(gx, self.min_x), # calculate the index based on given position
                               self.calc_xy_index(gy, self.min_y), 0.0, -1)
 
-        open_set, closed_set = dict(), dict()
-        open_set[self.calc_grid_index(start_node)] = start_node
+        open_set, closed_set = dict(), dict() # open_set: node not been tranversed yet. closed_set: node have been tranversed already
+        open_set[self.calc_grid_index(start_node)] = start_node # node index is the grid index
 
         while 1:
             if len(open_set) == 0:
@@ -71,9 +86,9 @@ class AStarPlanner:
 
             c_id = min(
                 open_set,
-                key=lambda o: open_set[o].cost + self.calc_heuristic(goal_node,
+                key=lambda o: open_set[o].cost + self.calc_heuristic(self, goal_node,
                                                                      open_set[
-                                                                         o]))
+                                                                         o])) # g(n) and h(n): calculate the distance between the goal node and openset
             current = open_set[c_id]
 
             # show graph
@@ -87,8 +102,9 @@ class AStarPlanner:
                 if len(closed_set.keys()) % 10 == 0:
                     plt.pause(0.001)
 
+            # reaching goal
             if current.x == goal_node.x and current.y == goal_node.y:
-                print("Find goal")
+                print("Total Trip time required -> ",current.cost )
                 goal_node.parent_index = current.parent_index
                 goal_node.cost = current.cost
                 break
@@ -99,11 +115,27 @@ class AStarPlanner:
             # Add it to the closed set
             closed_set[c_id] = current
 
+            # print(len(closed_set))
+
             # expand_grid search grid based on motion model
-            for i, _ in enumerate(self.motion):
+            for i, _ in enumerate(self.motion): # tranverse the motion matrix
                 node = self.Node(current.x + self.motion[i][0],
                                  current.y + self.motion[i][1],
-                                 current.cost + self.motion[i][2], c_id)
+                                 current.cost + self.motion[i][2] * self.costPerGrid, c_id)
+                
+                ## add more cost in cost intensive area 1
+                if self.calc_grid_position(node.x, self.min_x) in self.tc_x:
+                    if self.calc_grid_position(node.y, self.min_y) in self.tc_y:
+                        # print("cost intensive area!!")
+                        node.cost = node.cost + self.Delta_C1 * self.motion[i][2]
+                
+                # add more cost in cost intensive area 2
+                if self.calc_grid_position(node.x, self.min_x) in self.fc_x:
+                    if self.calc_grid_position(node.y, self.min_y) in self.fc_y:
+                        # print("cost intensive area!!")
+                        node.cost = node.cost + self.Delta_C2 * self.motion[i][2]
+                    # print()
+                
                 n_id = self.calc_grid_index(node)
 
                 # If the node is not safe, do nothing
@@ -121,13 +153,15 @@ class AStarPlanner:
                         open_set[n_id] = node
 
         rx, ry = self.calc_final_path(goal_node, closed_set)
+        # print(len(closed_set))
+        # print(len(open_set))
 
         return rx, ry
 
     def calc_final_path(self, goal_node, closed_set):
         # generate final course
         rx, ry = [self.calc_grid_position(goal_node.x, self.min_x)], [
-            self.calc_grid_position(goal_node.y, self.min_y)]
+            self.calc_grid_position(goal_node.y, self.min_y)] # save the goal node as the first point
         parent_index = goal_node.parent_index
         while parent_index != -1:
             n = closed_set[parent_index]
@@ -138,10 +172,17 @@ class AStarPlanner:
         return rx, ry
 
     @staticmethod
-    def calc_heuristic(n1, n2):
+    def calc_heuristic(self, n1, n2):
         w = 1.0  # weight of heuristic
         d = w * math.hypot(n1.x - n2.x, n1.y - n2.y)
+        d = d * self.costPerGrid
         return d
+    
+    def calc_heuristic_maldis(n1, n2):
+        w = 1.0  # weight of heuristic
+        dx = w * math.abs(n1.x - n2.x)
+        dy = w *math.abs(n1.y - n2.y)
+        return dx + dy
 
     def calc_grid_position(self, index, min_position):
         """
@@ -157,7 +198,7 @@ class AStarPlanner:
         return round((position - min_pos) / self.resolution)
 
     def calc_grid_index(self, node):
-        return (node.y - self.min_y) * self.x_width + (node.x - self.min_x)
+        return (node.y - self.min_y) * self.x_width + (node.x - self.min_x) 
 
     def verify_node(self, node):
         px = self.calc_grid_position(node.x, self.min_x)
@@ -196,19 +237,19 @@ class AStarPlanner:
 
         # obstacle map generation
         self.obstacle_map = [[False for _ in range(self.y_width)]
-                             for _ in range(self.x_width)]
+                             for _ in range(self.x_width)] # allocate memory
         for ix in range(self.x_width):
-            x = self.calc_grid_position(ix, self.min_x)
+            x = self.calc_grid_position(ix, self.min_x) # grid position calculation (x,y)
             for iy in range(self.y_width):
                 y = self.calc_grid_position(iy, self.min_y)
-                for iox, ioy in zip(ox, oy):
-                    d = math.hypot(iox - x, ioy - y)
+                for iox, ioy in zip(ox, oy): # Python’s zip() function creates an iterator that will aggregate elements from two or more iterables. 
+                    d = math.hypot(iox - x, ioy - y) # The math. hypot() method finds the Euclidean norm
                     if d <= self.rr:
-                        self.obstacle_map[ix][iy] = True
+                        self.obstacle_map[ix][iy] = True # the griid is is occupied by the obstacle
                         break
 
     @staticmethod
-    def get_motion_model():
+    def get_motion_model(): # the cost of the surrounding 8 points
         # dx, dy, cost
         motion = [[1, 0, 1],
                   [0, 1, 1],
@@ -223,55 +264,102 @@ class AStarPlanner:
 
 
 def main():
-    print(__file__ + " start!!")
+    print(__file__ + " start the A star algorithm demo !!") # print simple notes
 
     # start and goal position
     sx = -5.0  # [m]
     sy = 10.0  # [m]
     gx = 50.0  # [m]
     gy = 50.0  # [m]
-    grid_size = 2.0  # [m]
+    grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
-    # set obstacle positions
+    # set obstacle positions for group 8
+    # ox, oy = [], []
+    # for i in range(-10, 60): # draw the button border 
+    #     ox.append(i)
+    #     oy.append(-10.0)
+    # for i in range(-10, 60):
+    #     ox.append(60.0)
+    #     oy.append(i)
+    # for i in range(-10, 61):
+    #     ox.append(i)
+    #     oy.append(60.0)
+    # for i in range(-10, 61):
+    #     ox.append(-10.0)
+    #     oy.append(i)
+    # for i in range(-10, 40):
+    #     ox.append(20.0)
+    #     oy.append(i)
+    # for i in range(0, 40):
+    #     ox.append(40.0)
+    #     oy.append(60.0 - i)
+
+
+    # set obstacle positions for group 9
     ox, oy = [], []
-    for i in range(-10, 60):
+    for i in range(-10, 60): # draw the button border 
         ox.append(i)
         oy.append(-10.0)
-    for i in range(-10, 60):
+    for i in range(-10, 60): # draw the right border
         ox.append(60.0)
         oy.append(i)
-    for i in range(-10, 61):
+    for i in range(-10, 60): # draw the top border
         ox.append(i)
         oy.append(60.0)
-    for i in range(-10, 61):
+    for i in range(-10, 60): # draw the left border
         ox.append(-10.0)
         oy.append(i)
 
-    for i in range(-5, 20):
+
+    for i in range(-5, 20): # draw the free border
         ox.append(20.0)
         oy.append(i)
     for i in range(40, 50):
         ox.append(i)
-        oy.append(140 - 2*i)
+        oy.append(-2 * i + 140)
     for i in range(10, 20):
         ox.append(i)
-        oy.append(70 - 2*i)
+        oy.append(-2 * i + 70)
+    
+    # for i in range(40, 45): # draw the button border 
+    #     ox.append(i)
+    #     oy.append(30.0)
+
+
+    # set cost intesive area 1
+    tc_x, tc_y = [], []
+    for i in range(-10, 10):
+        for j in range(20, 40):
+            tc_x.append(i)
+            tc_y.append(j)
+    
+    # set cost intesive area 2
+    fc_x, fc_y = [], []
+    for i in range(30, 50):
+        for j in range(10, 30):
+            fc_x.append(i)
+            fc_y.append(j)
+
 
     if show_animation:  # pragma: no cover
-        plt.plot(ox, oy, ".k")
-        plt.plot(sx, sy, "og")
-        plt.plot(gx, gy, "xb")
-        plt.grid(True)
-        plt.axis("equal")
+        plt.plot(ox, oy, ".k") # plot the obstacle
+        plt.plot(sx, sy, "og") # plot the start position 
+        plt.plot(gx, gy, "xb") # plot the end position
+        
+        plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
+        plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
 
-    a_star = AStarPlanner(ox, oy, grid_size, robot_radius)
+        plt.grid(True) # plot the grid to the plot panel
+        plt.axis("equal") # set the same resolution for x and y axis 
+
+    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
     rx, ry = a_star.planning(sx, sy, gx, gy)
 
     if show_animation:  # pragma: no cover
-        plt.plot(rx, ry, "-r")
-        plt.pause(0.001)
-        plt.show()
+        plt.plot(rx, ry, "-r") # show the route 
+        plt.pause(0.001) # pause 0.001 seconds
+        plt.show() # show the plot
 
 
 if __name__ == '__main__':
