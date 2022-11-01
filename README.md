@@ -1,6 +1,8 @@
 
+# Project Name : AAE Group 9
+=======
+
 # Project Name : Group 9
->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -27,12 +29,21 @@
 ![Map](https://user-images.githubusercontent.com/116084608/199166184-395dddd6-52fe-47f4-a31a-b8bfcfbf8c21.jpg)
 
 
+* [Task 1](#task-1)
+* [Task 2](#task-2)
+* [Task 3](#task-3)
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
 
-`write-your-code-here`
+## Task 1
+This is the result of our flight plan for task 1.
+![aae-group9-t1](https://user-images.githubusercontent.com/116061877/199165511-77a428f5-bc07-4278-82d6-ebb943726413.jpg)
+
+
+- This is filler
+
+
+## Task 2
+- This is filler
 
 
 ## Project Status
@@ -46,4 +57,7 @@ Provide various use cases and code examples here.
 ## Contact
 
 
+## Task 3
+List the ready features here:
+- This is filler
 
