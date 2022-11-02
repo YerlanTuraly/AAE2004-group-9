@@ -41,8 +41,8 @@ class AStarPlanner:
         self.tc_y = tc_y
         
 
-        self.Delta_C1 = 0.2 # cost intensive area 1 modifier
-        self.Delta_C2 = 1 # cost intensive area 2 modifier
+        self.Delta_C1 = 0.2 # cost intensive area 1 modifier time
+        self.Delta_C2 = 0.4 # cost intensive area 2 modifier fuel
 
         self.costPerGrid = 1 
 
@@ -267,10 +267,10 @@ def main():
     print(__file__ + " start the A star algorithm demo !!") # print simple notes
 
     # start and goal position
-    sx = 0.0  # [m]
-    sy = 0.0  # [m]
+    sx = -5.0  # [m]
+    sy = 10.0  # [m]
     gx = 50.0  # [m]
-    gy = 0.0  # [m]
+    gy = 50.0  # [m]
     grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
@@ -311,13 +311,16 @@ def main():
         ox.append(-10.0)
         oy.append(i)
 
-    for i in range(-10, 30): # draw the free border
+
+    for i in range(-5, 20): # draw the free border
         ox.append(20.0)
         oy.append(i)
-
-    for i in range(0, 20):
+    for i in range(40, 50):
         ox.append(i)
-        oy.append(-1 * i + 10)
+        oy.append(-2 * i + 140)
+    for i in range(10, 20):
+        ox.append(i)
+        oy.append(-2 * i + 70)
     
     # for i in range(40, 45): # draw the button border 
     #     ox.append(i)
@@ -326,15 +329,15 @@ def main():
 
     # set cost intesive area 1
     tc_x, tc_y = [], []
-    for i in range(10, 20):
-        for j in range(20, 50):
+    for i in range(-10, 10):
+        for j in range(20, 40):
             tc_x.append(i)
             tc_y.append(j)
     
     # set cost intesive area 2
     fc_x, fc_y = [], []
-    for i in range(30, 40):
-        for j in range(0, 20):
+    for i in range(30, 50):
+        for j in range(10, 30):
             fc_x.append(i)
             fc_y.append(j)
 
