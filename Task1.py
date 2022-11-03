@@ -352,8 +352,15 @@ def main():
         plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
         plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
 
+
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
+
+
+
+        plt.grid(True) # plot the grid to the plot panel
+        plt.axis("equal") # set the same resolution for x and y axis 
+
 
     a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
     rx, ry = a_star.planning(sx, sy, gx, gy)
@@ -367,6 +374,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
     
 T = 77.66904755831209
 #A321neo
@@ -465,4 +473,5 @@ print("A350")
 print(N3_350)
 Total_3_A350 = (T * F350 * CF3 + T * TL350 +CA350) * 8
 print(Total_3_A350)
+
 
