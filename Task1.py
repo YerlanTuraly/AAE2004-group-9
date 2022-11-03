@@ -473,8 +473,4 @@ print("A350")
 print(N3_350)
 Total_3_A350 = (T * F350 * CF3 + T * TL350 +CA350) * 8
 print(Total_3_A350)
-<<<<<<< HEAD
-=======
 
-
->>>>>>> ec558afb0e572a6778d1f129100c1efb6d727e43
