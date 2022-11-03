@@ -408,7 +408,7 @@ MF1 = 12 # Maximum number of flights per week
 CF1 = 0.76 #Cost fuel 
 
 N1320 = TP1 / P320 #number of flights capable, maximum 12
-print("Scenario 01 A321")
+print("Scenario 1 A321")
 print(N1320)
 Total_cost_1A320 = (T * F320 * CF1 + T * TM320 +CA320) * (TP1 / P320 - (TP1 / P320 - 12))
 print(Total_cost_1A320)
