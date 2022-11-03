@@ -31,7 +31,7 @@ This is the most efficent flight plan that our group has formulated.
 
 **Goal**: To transport 3000 passengers within this week from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 12.The time cost should be moderate, and the cost of fuel should be $0.76 per kilogram.
 
-**Results**: After the calculation using the Cost function, and comparing the performance and between two widebody airliners the Airbus 330neo and A350-900 which came out to be approximately $8592.068 and $89213.22 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
+**Results**: After the calculation using the Cost function, and comparing the performance and between two widebody airliners the Airbus 330neo and A350-900 which came out to be approximately $85894.42 and $89186.64 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
 
 ### Senario 2
 - xxxx
