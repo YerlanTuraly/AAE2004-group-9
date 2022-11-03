@@ -1,23 +1,12 @@
 
-# Project Name : AAE Group 9
+# Project Name : AAE Github Project
 
 
-# Project Name : Group 9
-
-## Table of Contents
-* [General Info](#general-information)
-* [Features](#features)
-* [Screenshots](#screenshots)
+# Coding group : Group 9 
 
 >
-Members: Yerlan, Namnet, Hang, Frederick, Jophy, Tim & Boey
+**Members**: Yerlan, Namnet, Hang, Frederick, Jophy, Tim & Boey
 
-## Table of Contents
-* [General Info](#general-information)
-* [Task 1](#
-# Project Name : AAE Group 9
->
-Members: Yerlan, Namnet, Hang, Frederick, Jophy, Tim & Boey
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -29,17 +18,20 @@ Members: Yerlan, Namnet, Hang, Frederick, Jophy, Tim & Boey
 
 
 ## General Information
-- xxxx
-- xxxx
-- xxxx
+
+bla blaxxxxx. Find cheapest airline.xxxx xxxx....blabla
 
 
 ## Task 1
-This is the most efficent flight plan that our group has formed.
+This is the most efficent flight plan that our group has formulated.
 ![aae-group9-t1](https://user-images.githubusercontent.com/116061877/199170954-d8a1ef5b-f931-48d7-8652-bfb87ee3e0df.jpg)
+
 ### Senario 1
-- xxxx
-- xxxx
+**Methodology**: We used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  (I need more info)
+
+**Goal**: To transport 3000 passengers within this week from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 12.The time cost should be moderate, and the cost of fuel should be $0.76 per kilogram.
+
+**Results**: After the calculation using the Cost function, and comparing the performance and between two widebody airliners the Airbus 330neo and A350-900 which came out to be approximately $8592.068 and $89213.22 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
 
 ### Senario 2
 - xxxx
