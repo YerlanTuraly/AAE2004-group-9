@@ -107,6 +107,53 @@ class AStarPlanner:
                 print("Total Trip time required -> ",current.cost )
                 goal_node.parent_index = current.parent_index
                 goal_node.cost = current.cost
+                T = current.cost 
+                #A321neo
+                F321 = 54 #Fuel Consumption
+                P321 = 200 #Passenger capacity
+                TL321 = 10 #Cost time Low
+                TM321 = 15 #Cost time Medium 
+                TH321 = 20 #Cost time High
+                CA321 = 1800 #Fixed Cost
+                #A330-900neo
+                F330 = 84 #Fuel Consumption
+                P330 = 300 #Passenger capacity
+                TL330 = 15 #Cost time Low
+                TM330 = 21 #Cost time Medium 
+                TH330 = 27 #Cost time High
+                CA330 = 2000 #Fixed Cost
+                #A350-900
+                F350 = 90 #Fuel Consumption
+                P350 = 350 #Passenger capacity
+                TL350 = 20 #Cost time Low
+                TM350 = 27 #Cost time Medium 
+                TH350 = 34 #Cost time High
+                CA350 = 2500 #Fixed Cost
+                #Scenario 
+                TP = 3000 #Total passengers per week
+                MF = 12 # Maximum number of flights per week
+                CF = 0.76 #Cost fuel 
+
+                N320 = math.ceil(TP / P321) #number of flights capable, maximum 12
+                Total_cost_A321 = (T * F321 * CF + T * TM321 + CA321) * N320
+                if N320<=12:
+                    print("Total Cost of A321neo -> ",Total_cost_A321)
+                else:
+                    print("A321neo is not viable")
+
+                N330 = math.ceil(TP / P330) #number of flights capable, maximum 12
+                Total_cost_A330 = (T * F330 * CF + T * TM330 + CA330) * N330
+                if N330<=12:
+                    print("Total Cost of A330-900neo -> ",Total_cost_A330)
+                else:
+                    print("A330-900neo is not viable")
+                
+                N350 = math.ceil(TP / P350) #number of flights capable, maximum 12
+                Total_cost_A350 = (T * F350 * CF + T * TM350 +CA350) * N350
+                if N350<=12:
+                    print("Total Cost of A350-900 -> ",Total_cost_A350)
+                else:
+                    print("A350-900 is not viable")
                 break
 
             
@@ -374,107 +421,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
     
-T = 77.66904755831209
-#A321neo
-F320 = 54 #Fuel Consumption
-P320 = 200 #Passenger capacity
-TL320 = 10 #Cost time Low
-TM320 = 15 #Cost time Medium 
-TH320 = 20 #Cost time High
-CA320 = 1800 #Fixed Cost
-
-#A330-900neo
-F330 = 84 #Fuel Consumption
-P330 = 300 #Passenger capacity
-TL330 = 15 #Cost time Low
-TM330 = 21 #Cost time Medium 
-TH330 = 27 #Cost time High
-CA330 = 2000 #Fixed Cost
-
-#A350-900
-F350 = 90 #Fuel Consumption
-P350 = 350 #Passenger capacity
-TL350 = 20 #Cost time Low
-TM350 = 27 #Cost time Medium 
-TH350 = 34 #Cost time High
-CA350 = 2500 #Fixed Cost
-
-
-#Scenario 1
-TP1 = 3000 #Total passengers per week
-MF1 = 12 # Maximum number of flights per week
-CF1 = 0.76 #Cost fuel 
-
-N1320 = math.ceil(TP1 / P320) #number of flights capable, maximum 12
-print("Scenario 1 : A321")
-print("number of flights capable :12 < number of flight needed for A321 :",N1320)
-
-N1330 = math.ceil(TP1 / P330) #number of flights capable, maximum 12
-print("Scenario 1 : A330")
-print("Total flight needed for A350 :",N1330)
-Total_cost_1A330 = (T * F330 * CF1 + T * TM330 +CA330) * 10
-print("Cost of A330 :",Total_cost_1A330)
-
-N1350 = math.ceil(TP1 / P350) #number of flights capable, maximum 12
-print("Scenario 1 : A350")
-print("Total flight needed for A350 :",N1350)
-Total_cost_1A350 = (T * F350 * CF1 + T * TM350 +CA350) * 9
-print("Cost of A350 :",Total_cost_1A350)
-
-if Total_cost_1A330 < Total_cost_1A350:
-    print(Total_cost_1A330)
-    print("Ans:",N1330,"flights of A330-900neo")
-    
-elif Total_cost_1A330 >  Total_cost_1A350:
-    print(Total_cost_1A350)
-    print("Ans:",N1330,"flights of A350")
-
-#Scenario 2
-TP2 = 1250 #Total passengers per week
-MF2 = 5 # Maximum number of flights per week
-CF2 = 0.88 #Cost fuel 
-  
-N2_320 = TP2 / P320 #number of flights capable, maximum 20 per month
-print("Scenario 2 A321")
-print(N2_320)
-Total_A320 = (T * F320 * CF2 + T * TH320 +CA320) * 7
-print(Total_A320)
-
-N2_330 = TP2 / P330 #number of flights capable, maximum 20 per month
-print("A330")
-print(N2_330)
-Total_A330 = (T * F330 * CF2 + T * TH330 +CA330) * 5
-print(Total_A330)
-
-N2_350 = TP2 / P350 #number of flights capable, maximum 20 per month
-print("A350")
-print(N2_350)
-Total_A350 = (T * F350 * CF2 + T * TH350 +CA350) * 4
-print(Total_A350)
-
-
-#Scenario 3
-TP3 = 2500 #Total passengers per week
-MF3 = 25 # Maximum number of flights per week
-CF3 = 0.95 #Cost fuel 
-
-N3_320 = TP3 / P320 #number of flights capable, maximum 25 per month
-print("Scenario 3 A321")
-print(N3_320)
-Total_3_A320 = (T * F320 * CF3 + T * TL320 +CA320) * 13
-print(Total_3_A320)
-
-N3_330 = TP3 / P330 #number of flights capable, maximum 25 per month
-print("A330")
-print(N3_330)
-Total_3_A330 = (T * F330 * CF3 + T * TL330 +CA330) * 9
-print(Total_3_A330)
-
-N3_350 = TP3 / P350 #number of flights capable, maximum 25 per month
-print("A350")
-print(N3_350)
-Total_3_A350 = (T * F350 * CF3 + T * TL350 +CA350) * 8
-print(Total_3_A350)
-
