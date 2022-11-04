@@ -407,25 +407,29 @@ TP1 = 3000 #Total passengers per week
 MF1 = 12 # Maximum number of flights per week
 CF1 = 0.76 #Cost fuel 
 
-N1320 = TP1 / P320 #number of flights capable, maximum 12
-print("Scenario 1 A321")
-print(N1320)
-Total_cost_1A320 = (T * F320 * CF1 + T * TM320 +CA320) * (TP1 / P320 - (TP1 / P320 - 12))
-print(Total_cost_1A320)
+N1320 = math.ceil(TP1 / P320) #number of flights capable, maximum 12
+print("Scenario 1 : A321")
+print("number of flights capable :12 < number of flight needed for A321 :",N1320)
 
-N1330 = TP1 / P330 #number of flights capable, maximum 12
-print("A330")
-print(N1330)
+N1330 = math.ceil(TP1 / P330) #number of flights capable, maximum 12
+print("Scenario 1 : A330")
+print("Total flight needed for A350 :",N1330)
 Total_cost_1A330 = (T * F330 * CF1 + T * TM330 +CA330) * 10
-print(Total_cost_1A330)
+print("Cost of A330 :",Total_cost_1A330)
 
-N1350 = TP1 / P350 #number of flights capable, maximum 12
-print("A350")
-print(N1350)
+N1350 = math.ceil(TP1 / P350) #number of flights capable, maximum 12
+print("Scenario 1 : A350")
+print("Total flight needed for A350 :",N1350)
 Total_cost_1A350 = (T * F350 * CF1 + T * TM350 +CA350) * 9
-print(Total_cost_1A350)
+print("Cost of A350 :",Total_cost_1A350)
 
-
+if Total_cost_1A330 < Total_cost_1A350:
+    print(Total_cost_1A330)
+    print("Ans:",N1330,"flights of A330-900neo")
+    
+elif Total_cost_1A330 >  Total_cost_1A350:
+    print(Total_cost_1A350)
+    print("Ans:",N1330,"flights of A350")
 
 #Scenario 2
 TP2 = 1250 #Total passengers per week
