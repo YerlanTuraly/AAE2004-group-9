@@ -134,21 +134,21 @@ class AStarPlanner:
                 MF = 12 # Maximum number of flights per week
                 CF = 0.76 #Cost fuel 
 
-                N320 = TP / P321 #number of flights capable, maximum 12
+                N320 = math.ceil(TP / P321) #number of flights capable, maximum 12
                 Total_cost_A321 = (T * F321 * CF + T * TM321 + CA321) * N320
                 if N320<=12:
                     print("Total Cost of A321neo -> ",Total_cost_A321)
                 else:
                     print("A321neo is not viable")
 
-                N330 = TP / P330 #number of flights capable, maximum 12
+                N330 = math.ceil(TP / P330) #number of flights capable, maximum 12
                 Total_cost_A330 = (T * F330 * CF + T * TM330 + CA330) * N330
                 if N330<=12:
                     print("Total Cost of A330-900neo -> ",Total_cost_A330)
                 else:
                     print("A330-900neo is not viable")
                 
-                N350 = TP / P350 #number of flights capable, maximum 12
+                N350 = math.ceil(TP / P350) #number of flights capable, maximum 12
                 Total_cost_A350 = (T * F350 * CF + T * TM350 +CA350) * N350
                 if N350<=12:
                     print("Total Cost of A350-900 -> ",Total_cost_A350)
@@ -422,4 +422,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-    
