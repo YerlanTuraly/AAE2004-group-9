@@ -42,11 +42,9 @@ class AStarPlanner:
         self.js_x = js_x
         self.js_y = js_y
 
-        
-
         self.Delta_C1 = 0.2 # cost intensive area 1 modifier time
         self.Delta_C2 = 0.4 # cost intensive area 2 modifier fuel
-        self.Delta_C3 = 0.05 # jet stream area
+        self.Delta_C3 = 0.05 # cost jet stream area
 
         self.costPerGrid = 1 
 
@@ -176,26 +174,25 @@ class AStarPlanner:
                                  current.y + self.motion[i][1],
                                  current.cost + self.motion[i][2] * self.costPerGrid, c_id)
                 
-                ## add more cost in cost intensive area 1
+                ### add more cost in cost intensive area 1
                 if self.calc_grid_position(node.x, self.min_x) in self.tc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.tc_y:
                         # print("cost intensive area!!")
                         node.cost = node.cost + self.Delta_C1 * self.motion[i][2]
                 
-                # add more cost in cost intensive area 2
+                ## add more cost in cost intensive area 2
                 if self.calc_grid_position(node.x, self.min_x) in self.fc_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.fc_y:
                         # print("cost intensive area!!")
                         node.cost = node.cost + self.Delta_C2 * self.motion[i][2]
-                    # print()
-                
-                # substract cost in jet stream area
+
+                ## add more jet stream
                 if self.calc_grid_position(node.x, self.min_x) in self.js_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.js_y:
-                        # print("jet stream")
+                        # print("jet stream area! !")
                         node.cost = node.cost - self.Delta_C3 * self.motion[i][2]
                     # print()
-
+                
                 n_id = self.calc_grid_index(node)
 
                 # If the node is not safe, do nothing
@@ -401,7 +398,7 @@ def main():
             fc_x.append(i)
             fc_y.append(j)
 
-    # set jet stream
+    # set jet stream area
     js_x, js_y = [], []
     for i in range(55, 60):
         for j in range(-10, 60):
@@ -416,8 +413,7 @@ def main():
         
         plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
         plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
-        
-
+        plt.plot(js_x, js_y, "of") # plot jet stream
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
@@ -440,4 +436,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
 
