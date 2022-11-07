@@ -7,7 +7,6 @@ This is the simple code for path planning class
 """
 
 
-
 import math
 
 import matplotlib.pyplot as plt
@@ -413,7 +412,7 @@ def main():
         
         plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
         plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
-        plt.plot(js_x, js_y, "of") # plot jet stream
+        plt.plot(js_x, js_y, "") # plot jet stream
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
@@ -436,6 +435,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-
 
 
