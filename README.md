@@ -10,7 +10,7 @@
 **Member 3**: Frederick - ""
 **Member 4**: Jophy - ""
 **Member 5**: Tim - ""
-**Member 6**: Boey - ""
+**Member 6**: Boey - "boeytse"
 
 
 ## About The Project
