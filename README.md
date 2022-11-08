@@ -35,22 +35,27 @@ This is the most efficent flight plan that our group has formulated.
 
 **Results**: After the program calculated the time required to fly the proposed flight path, the rest of the calculation using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $85894.42 and $89186.64 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
 
+![t1](https://user-images.githubusercontent.com/116061877/200476914-79e418d0-d2c1-4277-a744-4918da13b3f3.jpeg)
+
 ### Senario 2
 
-**Methodology**:
+**Methodology**: xxx
 
-**Objectives**:
+**Objectives**: xxx
 
-**Results**:
+**Results**: xxx
+
+![t2](https://user-images.githubusercontent.com/116061877/200477155-4c177fbb-fcfe-4c60-9b63-defcc0226928.jpeg)
 
 ### Senario 3
 
-**Methodology**:
+**Methodology**: xxx
 
-**Objectives**:
+**Objectives**: xxx
 
-**Results**:
+**Results**: xxx
 
+![t3](https://user-images.githubusercontent.com/116061877/200477263-8196e13e-60e9-4c3b-8210-56d93b83a78c.jpeg)
 
 ## Task 2
 **Goal**: To design a new cost area that can reduce the cost of the route.
@@ -72,3 +77,4 @@ This is the most efficent flight plan that our group has formulated.
 ## Project Status
 Project is: in progress
 
+## Reflections
