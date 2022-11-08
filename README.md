@@ -6,21 +6,27 @@
 >
 **Leader:** 
 Yerlan - "captainnccrruunncchh"
-**Member 1:** 
-Namnet - "NamnetT"
+
 **Member 2:** 
+Namnet - "NamnetT"
+
+**Member 3:** 
 Hang - "Mr. Truth"
-**Member 3:**
-Frederick - "FrederickTam22"
+
 **Member 4:**
-Jophy - "JophyTse"
+Frederick - "FrederickTam22"
+
 **Member 5:**
-Tim - "Timtsangxd"
+Jophy - "JophyTse"
+
 **Member 6:**
+Tim - "Timtsangxd"
+
+**Member 7:**
 Boey - "boeytse"
 
 
-## About The Project
+## Content
 
 * [About The Project](#about-the-project)
 * [Task 1](#task-1)
@@ -75,7 +81,10 @@ This is the most efficent flight plan that our group has formulated.
 
 ## Task 2
 **Goal**: To design a new cost area that can reduce the cost of the route.
-- xxxx
+
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/116061877/200550990-c1e6800d-d076-4813-be21-ff3ba1aaaa21.gif)
+
+
 - xxxx
 - xxxx
 
