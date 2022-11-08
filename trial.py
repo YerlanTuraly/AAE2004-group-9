@@ -401,7 +401,7 @@ def main():
     # set jet stream area
         js_x, js_y = [], []
         for i in range(-10, 60):
-            for j in range(32, 37):
+            for j in range(33, 38):
                     js_x.append(i)
                     js_y.append(j)
         
