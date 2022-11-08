@@ -81,7 +81,7 @@ The program calculated the time required to fly the proposed flight path. The re
 
 ## Task 3
 **Goal**: To design a new aircraft model that achives minimum costs for the specific scenarios in [Task1](#task-1).
-- xxxx
+- Trend
 - xxxx
 - xxxx
 
