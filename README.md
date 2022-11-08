@@ -51,7 +51,7 @@ The program calculated the time required to fly the proposed flight path. The re
 **Results**: xxx
 
 
-!(https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
+![Scenario 2](https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
 
 
 ### Senario 3
@@ -62,7 +62,7 @@ The program calculated the time required to fly the proposed flight path. The re
 
 **Results**: xxx
 
-!(https://user-images.githubusercontent.com/116084608/200457574-797e5088-5ff6-44b5-9c8b-5c44fb431a87.jpg)
+![Scenario 3](https://user-images.githubusercontent.com/116084608/200457574-797e5088-5ff6-44b5-9c8b-5c44fb431a87.jpg)
 
 
 
