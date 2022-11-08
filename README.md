@@ -4,19 +4,19 @@
 # Coding group : Group 9 
 
 >
-## Leader: 
+**Leader:** 
 Yerlan - "captainnccrruunncchh"
-## Member 1: 
+**Member 1:** 
 Namnet - "NamnetT"
-## Member 2: 
+**Member 2:** 
 Hang - "Mr. Truth"
-## Member 3:
+**Member 3:**
 Frederick - "FrederickTam22"
-## Member 4:
+**Member 4:**
 Jophy - "JophyTse"
-## Member 5:
+**Member 5:**
 Tim - "Timtsangxd"
-## Member 6:
+**Member 6:**
 Boey - "boeytse"
 
 
