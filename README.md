@@ -6,7 +6,7 @@
 >
 **Leader**: Yerlan - "captainnccrruunncchh"
 **Member 1**: Namnet - ""
-**Member 2**: Hang - ""
+**Member 2**: Hang - "Mr. Truth"
 **Member 3**: Frederick - ""
 **Member 4**: Jophy - ""
 **Member 5**: Tim - ""
