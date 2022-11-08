@@ -41,7 +41,6 @@ This is the most efficent flight plan that our group has formulated.
 The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $85894.42 and $89186.64 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
 
 
-![t1](https://user-images.githubusercontent.com/116061877/200476914-79e418d0-d2c1-4277-a744-4918da13b3f3.jpeg)
 
 ### Senario 2
 
@@ -51,9 +50,8 @@ The program calculated the time required to fly the proposed flight path. The re
 
 **Results**: xxx
 
-![t2](https://user-images.githubusercontent.com/116061877/200477155-4c177fbb-fcfe-4c60-9b63-defcc0226928.jpeg)
 
-![Scenrio 2](https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
+!(https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
 
 
 ### Senario 3
@@ -64,9 +62,8 @@ The program calculated the time required to fly the proposed flight path. The re
 
 **Results**: xxx
 
-![Scenario 3](https://user-images.githubusercontent.com/116084608/200457574-797e5088-5ff6-44b5-9c8b-5c44fb431a87.jpg)
+!(https://user-images.githubusercontent.com/116084608/200457574-797e5088-5ff6-44b5-9c8b-5c44fb431a87.jpg)
 
-![t3](https://user-images.githubusercontent.com/116061877/200477263-8196e13e-60e9-4c3b-8210-56d93b83a78c.jpeg)
 
 
 ## Task 2
