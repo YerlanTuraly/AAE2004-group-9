@@ -25,7 +25,7 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 **Goal**: To find an appropriate aircraft model that can achieve minimum cost for each given scenario. 
 
 This is the most efficent flight plan that our group has formulated.
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/116061877/200481020-214374cb-4165-434f-bcb9-399ead05fdde.gif)
+![gifv2](https://user-images.githubusercontent.com/116061877/200487324-6ef257dd-fb34-4669-9df2-e9cdba3829ab.gif)
 
 
 ### Senario 1
@@ -34,11 +34,7 @@ This is the most efficent flight plan that our group has formulated.
 
 **Objective**: To transport 3000 passengers within a week from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 12 flights. The time cost should also be moderate, and the cost of fuel should be $0.76 per kilogram.
 
-**Results**: 
-
-![IMG-20221104-WA0005](https://user-images.githubusercontent.com/116084608/200436523-64e32275-737e-4e49-92e5-a241dbe926c5.jpg)
-
-The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $85894.42 and $89186.64 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
+**Results**: The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $85894.42 and $89186.64 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
 
 ![t1](https://user-images.githubusercontent.com/116061877/200476914-79e418d0-d2c1-4277-a744-4918da13b3f3.jpeg)
 
@@ -48,11 +44,7 @@ The program calculated the time required to fly the proposed flight path. The re
 
 **Objectives**: To transport 1250 passengers within this month from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 5.The time cost should be high, and the cost of fuel should be $0.88 per kilogram.
 
-**Results**: 
-
-![t2](https://user-images.githubusercontent.com/116061877/200477155-4c177fbb-fcfe-4c60-9b63-defcc0226928.jpeg)
-
-The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $49191.80 and $45168.54 per trip, respectively. Therefore, we came to a conclusion that Airbus 350neo would be the best option for the scenario.
+**Results**: The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $49191.80 and $45168.54 per trip, respectively. Therefore, we came to a conclusion that Airbus 350neo would be the best option for the scenario.
 
 ![Scenrio 2](https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
 
@@ -63,11 +55,7 @@ The program calculated the time required to fly the proposed flight path. The re
 
 **Objectives**: To transport 2500 passengers within this week from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 25.The time cost should be low, and the cost of fuel should be $0.95 per kilogram.
 
-**Results**: 
-
-![Scenario 3](https://user-images.githubusercontent.com/116084608/200457574-797e5088-5ff6-44b5-9c8b-5c44fb431a87.jpg)
-
-The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $84267.23 and $85552.68 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
+**Results**: The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $84267.23 and $85552.68 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
 
 ![t3](https://user-images.githubusercontent.com/116061877/200477263-8196e13e-60e9-4c3b-8210-56d93b83a78c.jpeg)
 
