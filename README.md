@@ -4,13 +4,13 @@
 # Coding group : Group 9 
 
 >
-**Leader**: Yerlan
-**Member 1**: Namnet
-**Member 2**: Hang
-**Member 3**: Frederick
-**Member 4**: Jophy
-**Member 5**: Tim
-**Member 6**: Boey
+**Leader**: Yerlan - "captainnccrruunncchh"
+**Member 1**: Namnet - ""
+**Member 2**: Hang - ""
+**Member 3**: Frederick - ""
+**Member 4**: Jophy - ""
+**Member 5**: Tim - ""
+**Member 6**: Boey - ""
 
 
 ## About The Project
