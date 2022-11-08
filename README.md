@@ -42,7 +42,7 @@ This is the most efficent flight plan that our group has formulated.
 
 **Methodology**: xxx
 
-**Objectives**: xxx
+**Objectives**: To transport 1250 passengers within this month from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 5.The time cost should be high, and the cost of fuel should be $0.88 per kilogram.
 
 **Results**: xxx
 
@@ -52,7 +52,7 @@ This is the most efficent flight plan that our group has formulated.
 
 **Methodology**: xxx
 
-**Objectives**: xxx
+**Objectives**: To transport 2500 passengers within this week from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 25.The time cost should be low, and the cost of fuel should be $0.95 per kilogram.
 
 **Results**: xxx
 
