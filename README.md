@@ -81,11 +81,14 @@ The program calculated the time required to fly the proposed flight path. The re
 
 ## Task 3
 **Goal**: To design a new aircraft model that achives minimum costs for the specific scenarios in [Task1](#task-1).
-- Trend
-- xxxx
-- xxxx
 
+**Trend**: According to the fuel price analysis, the fuel cost in 2022 had increased a total of 73.7% compare to 2021 which indicated that jumbo jets like B787 or A380 should not be considered in this task.
 
+**Results**: B797 using twin RR Trent 1000 engine is the best to fit scenario 1 in task 1 as this aircraft is able to fit the cost specification between A321 & A330. The targetted no of flights is 11 with 275 passengers per flight.
+
+**Calculation**: Refer to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found the total cost approximately to $65682.10 which is much lower than the cost for A330neo.
+
+**Reasons Behind**: Compare to three other aircrafts types A321neo, A330neo and A350. the passenger capacity of A321neo is only 200 which is not enough. Also, both A330neo and A350 are four engine aircrafts. As the fuel price had rised significantly, it is clear that the efficency of both aircraft is low. Therefore, only B797 should be considered in this task.
 ## Screenshots
 - xxxx
 
