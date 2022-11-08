@@ -7,7 +7,7 @@
 **Leader**: Yerlan - "captainnccrruunncchh"
 **Member 1**: Namnet - ""
 **Member 2**: Hang - "Mr. Truth"
-**Member 3**: Frederick - ""
+**Member 3**: Frederick - "FrederickTam22"
 **Member 4**: Jophy - ""
 **Member 5**: Tim - ""
 **Member 6**: Boey - "boeytse"
