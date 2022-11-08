@@ -1,4 +1,3 @@
-
 # Project Name : AAE Github Project
 
 
@@ -8,8 +7,9 @@
 **Members**: Yerlan, Namnet, Hang, Frederick, Jophy, Tim & Boey
 
 
-## Table of Contents
-* [General Info](#general-information)
+## About The Project
+
+* [About The Project](#about-the-project)
 * [Task 1](#task-1)
 * [Task 2](#task-2)
 * [Task 3](#task-3)
@@ -25,31 +25,45 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 **Goal**: To find an appropriate aircraft model that can achieve minimum cost for each given scenario. 
 
 This is the most efficent flight plan that our group has formulated.
-![aae-group9-t1](https://user-images.githubusercontent.com/116061877/199170954-d8a1ef5b-f931-48d7-8652-bfb87ee3e0df.jpg)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/116061877/200481020-214374cb-4165-434f-bcb9-399ead05fdde.gif)
+
 
 ### Senario 1
 
 **Methodology**: We first setup our obstacles and cost intensive areas, which represent physical or environmental barriers and areas that should be avoided to maximize performance. Then we used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>,  where C<sub>F</sub> represents the cost of fuel, ΔF is the fuel required to complete the trip,  T<sub>best</sub> is the most efficient time, C<sub>T</sub> is the time related cost per minute of flight, and C<sub>c</sub> represents the fixed cost independent of time.
 
-**Objective**: To transport 3000 passengers within this week from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 12.The time cost should be moderate, and the cost of fuel should be $0.76 per kilogram.
+**Objective**: To transport 3000 passengers within a week from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 12 flights. The time cost should also be moderate, and the cost of fuel should be $0.76 per kilogram.
 
-**Results**: After the program calculated the time required to fly the proposed flight path, the rest of the calculation using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $85894.42 and $89186.64 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
+**Results**: 
+
+![IMG-20221104-WA0005](https://user-images.githubusercontent.com/116084608/200436523-64e32275-737e-4e49-92e5-a241dbe926c5.jpg)
+
+The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $85894.42 and $89186.64 per trip, respectively. Therefore, we came to a conclusion that Airbus 330neo would be the best option for the scenario.
+
+
 
 ### Senario 2
 
-**Methodology**:
+**Methodology**: xxx
 
-**Objectives**:
+**Objectives**: To transport 1250 passengers within this month from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 5.The time cost should be high, and the cost of fuel should be $0.88 per kilogram.
 
-**Results**:
+**Results**: xxx
+
+
+![Scenario 2](https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
+
 
 ### Senario 3
 
-**Methodology**:
+**Methodology**: xxx
 
-**Objectives**:
+**Objectives**: To transport 2500 passengers within this week from the the start point to end point, while adhering to a number of objectives, such as the weekly flight cap of 25.The time cost should be low, and the cost of fuel should be $0.95 per kilogram.
 
-**Results**:
+**Results**: xxx
+
+![Scenario 3](https://user-images.githubusercontent.com/116084608/200457574-797e5088-5ff6-44b5-9c8b-5c44fb431a87.jpg)
+
 
 
 ## Task 2
@@ -72,3 +86,4 @@ This is the most efficent flight plan that our group has formulated.
 ## Project Status
 Project is: in progress
 
+## Reflections
