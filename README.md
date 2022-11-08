@@ -25,7 +25,8 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 **Goal**: To find an appropriate aircraft model that can achieve minimum cost for each given scenario. 
 
 This is the most efficent flight plan that our group has formulated.
-![aae-group9-t1](https://user-images.githubusercontent.com/116061877/199170954-d8a1ef5b-f931-48d7-8652-bfb87ee3e0df.jpg)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/116061877/200481020-214374cb-4165-434f-bcb9-399ead05fdde.gif)
+
 
 ### Senario 1
 
