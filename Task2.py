@@ -185,13 +185,14 @@ class AStarPlanner:
                         # print("cost intensive area!!")
                         node.cost = node.cost + self.Delta_C2 * self.motion[i][2]
 
-                ## add more jet stream
+                # add more jet stream
                 if self.calc_grid_position(node.x, self.min_x) in self.js_x:
                     if self.calc_grid_position(node.y, self.min_y) in self.js_y:
                         # print("jet stream area! !")
                         node.cost = node.cost - self.Delta_C3 * self.motion[i][2]
                     # print()
                 
+
                 n_id = self.calc_grid_index(node)
 
                 # If the node is not safe, do nothing
@@ -399,8 +400,8 @@ def main():
 
     # set jet stream area
     js_x, js_y = [], []
-    for i in range(55, 60):
-        for j in range(-10, 60):
+    for i in range(-10, 60):
+        for j in range(25, 30):
             js_x.append(i)
             js_y.append(j)
 
@@ -435,5 +436,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
 
