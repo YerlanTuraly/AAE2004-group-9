@@ -401,9 +401,38 @@ def main():
     # set jet stream area
     js_x, js_y = [], []
     for i in range(-10, 60):
-        for j in range(25, 30):
-            js_x.append(i)
-            js_y.append(j)
+        for x in range(10, 50):
+            for j in range(x, x+5):
+                js_x.append(i)
+                js_y.append(j)
+                
+                if show_animation:  # pragma: no cover
+                    plt.plot(ox, oy, ".k") # plot the obstacle
+                    plt.plot(sx, sy, "og") # plot the start position 
+                    plt.plot(gx, gy, "xb") # plot the end position
+                    
+                    plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
+                    plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
+                    plt.plot(js_x, js_y, "") # plot jet stream
+
+                    plt.grid(True) # plot the grid to the plot panel
+                    plt.axis("equal") # set the same resolution for x and y axis 
+
+
+
+                    plt.grid(True) # plot the grid to the plot panel
+                    plt.axis("equal") # set the same resolution for x and y axis 
+
+
+                a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y, js_x, js_y)
+                rx, ry = a_star.planning(sx, sy, gx, gy)
+
+                if show_animation:  # pragma: no cover
+                    plt.plot(rx, ry, "-r") # show the route 
+                    plt.pause(0.001) # pause 0.001 seconds
+                    plt.show() # show the plot
+                
+                
 
 
     if show_animation:  # pragma: no cover
@@ -436,3 +465,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
