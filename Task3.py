@@ -132,7 +132,6 @@ class AStarPlanner:
                         Total_cost = (T * 2 * F * Cfuel + T * (18 + 2 * m ) + CT)*N
                         print("Total cost of 4 engine ",Total_cost)
                         print("Passenger capacity",passengers)
-                    
                     if passengers==250:
                         lowest = Total_cost
                         bestpassengers = passengers
