@@ -194,7 +194,7 @@ class AStarPlanner:
         # print(len(closed_set))
         # print(len(open_set))
 
-        return rx, ry, current.cost
+        return rx, ry
 
     def calc_final_path(self, goal_node, closed_set):
         # generate final course
