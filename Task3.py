@@ -115,8 +115,7 @@ class AStarPlanner:
                 CF = 2500 # Fixed cost for 4-engine
                 Ctime = 12 # Cost for time 
                 F = 20 # Kg per minute
-                Cap = 275 # 275 passengers
-                usdbbl = 105.68 # usd/bbl for Asia%Oceania Region
+                usdbbl = 105.68 # usd/bbl for Asia n Oceania Region
 
 
                 for add_pass in range(0, 200, 50):
@@ -128,23 +127,25 @@ class AStarPlanner:
                         Total_cost = (T * 4 * F * Cfuel + T * (18 + 2 * m ) + CF)*N
                     else:
                         Total_cost = (T * 2 * F * Cfuel + T * (18 + 2 * m ) + CT)*N
+
                     if passengers==250:
                         lowest = Total_cost
                         bestpassengers = passengers
                     if Total_cost < lowest:
                         lowest = Total_cost
                         bestpassengers = passengers
-                        
-                    Nbest = math.ceil(TP/bestpassengers) # number of flights with best number of passengers
-                    if bestpassengers >= 300:
-                        Total_cost = (T * 4 * F * Cfuel + T * (18 + 2 * m ) + CF)*Nbest
-                        print("Total cost of twin-engine -> ",Total_cost)
-                        print("Passenger capacity -> ",bestpassengers)
-                    else:
-                        Total_cost = (T * 2 * F * Cfuel + T * (18 + 2 * m ) + CT)*Nbest
-                        print("Total cost of 4 engine -> ",Total_cost)
-                        print("Passenger capacity ->",bestpassengers)
-                    break
+                    passengers = 50
+
+                Nbest = math.ceil(TP/bestpassengers) # number of flights with best number of passengers
+                if bestpassengers >= 300:
+                    Total_cost_4_engine = (T * 4 * F * Cfuel + T * (18 + 2 * m ) + CF)*Nbest
+                    print("Total cost of twin-engine -> ",Total_cost_4_engine)
+                    print("Passenger capacity -> ",bestpassengers)
+                else:
+                    Total_cost_twin_engine = (T * 2 * F * Cfuel + T * (18 + 2 * m ) + CT)*Nbest
+                    print("Total cost of 4-engine -> ",Total_cost_twin_engine)
+                    print("Passenger capacity ->",bestpassengers)
+                break
 
             
 
@@ -208,7 +209,7 @@ class AStarPlanner:
             ry.append(self.calc_grid_position(n.y, self.min_y))
             parent_index = n.parent_index
 
-        return rx, ry
+        return rx, ry 
 
     @staticmethod
     def calc_heuristic(self, n1, n2):
