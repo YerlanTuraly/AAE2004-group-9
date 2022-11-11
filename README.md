@@ -97,7 +97,7 @@ This is the most efficent flight plan that our group has formulated.
 - xxxx
 - xxxx
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Task 3
 **Goal**: To design a new aircraft model that achives minimum costs for the specific scenarios in [Task1](#task-1).
@@ -112,12 +112,12 @@ This is the most efficent flight plan that our group has formulated.
 ## Screenshots
 - xxxx
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Usage 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Reflections
 **Yerlan's Reflection:**
@@ -140,7 +140,7 @@ This is the most efficent flight plan that our group has formulated.
 
 **Boey's Reflection:** 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Contacts
 **Yerlan** - https://www.linkedin.com/in/yerlan-turaly-5b2310246/ - 22096542d@connect.polyu.hk
@@ -159,9 +159,9 @@ This is the most efficent flight plan that our group has formulated.
 
 **Project Link** - https://github.com/captainnccrruunncchh/AAE2004-group-9
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Project Status
 Project is in progress. Compulsory coding tasks are done, ReadMe and ppt are in progress
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme">back to top</a>)</p>
