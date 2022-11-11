@@ -1,7 +1,7 @@
 # Project Name : AAE Github Project
 
 
-# Coding group : Group 9 
+# Built With 
 
 >
 **Leader:** 
@@ -107,6 +107,9 @@ This is the most efficent flight plan that our group has formulated.
 ## Project Status
 Project is: in progress
 
+## Usage 
+
+
 ## Reflections
 **Yerlan's Reflection:** 
 
@@ -127,3 +130,5 @@ Project is: in progress
 
 
 **Boey's Reflection:** 
+
+## Contacts
