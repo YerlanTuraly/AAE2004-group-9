@@ -108,5 +108,22 @@ This is the most efficent flight plan that our group has formulated.
 Project is: in progress
 
 ## Reflections
-**Yerlan's Reflection** 
+**Yerlan's Reflection:** 
 
+
+**Namnet's Reflection:** 
+
+
+**Hang's Reflection:** 
+
+
+**Frederick's Reflection:** 
+
+
+**Jophy's Reflection:** 
+
+
+**Tim's Reflection:** 
+
+
+**Boey's Reflection:** 
