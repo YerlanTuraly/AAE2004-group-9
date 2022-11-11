@@ -30,7 +30,7 @@ Boey - "boeytse"
 ## Content
 
 * [About The Project](#about-the-project)
-* [Link to the youtube video](#YouTube Video)
+* [YouTube Video](#YouTube-Video)
 * [Task 1](#task-1)
 * [Task 2](#task-2)
 * [Task 3](#task-3)
