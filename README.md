@@ -104,8 +104,6 @@ This is the most efficent flight plan that our group has formulated.
 ## Screenshots
 - xxxx
 
-## Project Status
-Project is: in progress
 
 ## Usage 
 
@@ -132,3 +130,15 @@ Project is: in progress
 **Boey's Reflection:** 
 
 ## Contacts
+Yerlan - https://www.linkedin.com/in/yerlan-turaly-5b2310246/ - 22096542d@connect.polyu.hk
+Namnet - 
+Hang - 
+Frederick - 
+Jophy - 
+Tim - 
+Boey - 
+
+Project Link - 
+
+## Project Status
+Project is: in progress
