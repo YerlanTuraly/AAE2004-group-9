@@ -150,4 +150,4 @@ This is the most efficent flight plan that our group has formulated.
 **Project Link** - https://github.com/captainnccrruunncchh/AAE2004-group-9
 
 ## Project Status
-Project is: Compulsory coding tasks are done, ReadMe and ppt are in progress
+Project is in progress. Compulsory coding tasks are done, ReadMe and ppt are in progress
