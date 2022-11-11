@@ -118,11 +118,12 @@ class AStarPlanner:
                 usdbbl = 105.68 # usd/bbl for Asia n Oceania Region
 
 
-                for add_pass in range(0, 200, 50):
+                for add_pass in range(0, 200):
                     passengers = 250 + add_pass # number of passengers
                     Cfuel = usdbbl/ 119.24047 # cost for fuel
                     m = math.ceil(add_pass/50) # by what value it is increased
                     N = math.ceil(TP/passengers) # number of flights
+
                     if passengers >= 300:
                         Total_cost = (T * 4 * F * Cfuel + T * (18 + 2 * m ) + CF)*N
                     else:
@@ -135,18 +136,14 @@ class AStarPlanner:
                     if Total_cost < lowest:
                         lowest = Total_cost
                         bestpassengers = passengers
-                    passengers = 200
-
-
-                    Nbest = math.ceil(TP/bestpassengers) # number of flights with best number of passengers
-                    if bestpassengers >= 300:
-                        Total_cost_4_engine = (T * 4 * F * Cfuel + T * (18 + 2 * m ) + CF)*Nbest
-                        print("Total cost of 4-engine -> ",Total_cost_4_engine)
-                        print("Passenger capacity -> ",bestpassengers)
-                    else:
-                        Total_cost_twin_engine = (T * 2 * F * Cfuel + T * (18 + 2 * m ) + CT)*Nbest
-                        print("Total cost of twin-engine -> ",Total_cost_twin_engine)
-                        print("Passenger capacity ->",bestpassengers)
+                    
+                Nbest = math.ceil(TP/bestpassengers) # number of flights with best number of passengers
+                if bestpassengers >= 300:
+                    print("Total cost of 4-engine -> ",lowest)
+                    print("Passenger capacity -> ",bestpassengers)
+                else:
+                    print("Total cost of twin-engine -> ",lowest)
+                    print("Passenger capacity ->",bestpassengers)       
                 break
                 
             
@@ -198,7 +195,7 @@ class AStarPlanner:
         # print(len(closed_set))
         # print(len(open_set))
 
-        return rx, ry, current.cost
+        return rx, ry
 
     def calc_final_path(self, goal_node, closed_set):
         # generate final course
