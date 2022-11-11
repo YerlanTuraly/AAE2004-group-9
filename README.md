@@ -29,6 +29,7 @@ Boey - "boeytse"
 ## Content
 
 * [About The Project](#about-the-project)
+* [Link to the youtube video](...)
 * [Task 1](#task-1)
 * [Task 2](#task-2)
 * [Task 3](#task-3)
@@ -39,6 +40,8 @@ Boey - "boeytse"
 ## About the project
 
 As efficiency in cost and passanger satisfaction are a crucial factor that determines the sucess of airlines. This project is primarily focused on finding the most an efficeint pathway for a flight under various realworld circumstances using technologies and methods that are easily acessible.
+
+## YouTube Video
 
 ## Task 1
 **Goal**: To find an appropriate aircraft model that can achieve minimum cost for each given scenario. 
