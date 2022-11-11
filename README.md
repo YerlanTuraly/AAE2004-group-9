@@ -44,7 +44,10 @@ Boey - "boeytse"
 
 As efficiency in cost and passanger satisfaction are a crucial factor that determines the sucess of airlines. This project is primarily focused on finding the most an efficeint pathway for a flight under various realworld circumstances using technologies and methods that are easily acessible.
 
+
+
 ## YouTube Video
+
 
 ## Task 1
 **Goal**: To find an appropriate aircraft model that can achieve minimum cost for each given scenario. 
@@ -83,6 +86,7 @@ This is the most efficent flight plan that our group has formulated.
 
 ![t3](https://user-images.githubusercontent.com/116061877/200477263-8196e13e-60e9-4c3b-8210-56d93b83a78c.jpeg)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Task 2
 **Goal**: To design a new cost area that can reduce the cost of the route.
@@ -93,6 +97,7 @@ This is the most efficent flight plan that our group has formulated.
 - xxxx
 - xxxx
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Task 3
 **Goal**: To design a new aircraft model that achives minimum costs for the specific scenarios in [Task1](#task-1).
@@ -107,9 +112,12 @@ This is the most efficent flight plan that our group has formulated.
 ## Screenshots
 - xxxx
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Reflections
 **Yerlan's Reflection:**
@@ -132,6 +140,8 @@ This is the most efficent flight plan that our group has formulated.
 
 **Boey's Reflection:** 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Contacts
 **Yerlan** - https://www.linkedin.com/in/yerlan-turaly-5b2310246/ - 22096542d@connect.polyu.hk
 
@@ -149,5 +159,9 @@ This is the most efficent flight plan that our group has formulated.
 
 **Project Link** - https://github.com/captainnccrruunncchh/AAE2004-group-9
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Project Status
 Project is in progress. Compulsory coding tasks are done, ReadMe and ppt are in progress
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
