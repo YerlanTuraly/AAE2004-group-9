@@ -46,7 +46,6 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 This is the most efficent flight plan that our group has formulated.
 ![gifv2](https://user-images.githubusercontent.com/116061877/200487324-6ef257dd-fb34-4669-9df2-e9cdba3829ab.gif)
 
-![WTF](file:///C:/Users/moooo/Downloads/WhatsApp%20Image%202022-11-11%20at%207.34.21%20PM.jpeg)
 ### Senario 1
 
 **Methodology**: We first setup our obstacles and cost intensive areas, which represent physical or environmental barriers and areas that should be avoided to maximize performance. Then we used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>,  where C<sub>F</sub> represents the cost of fuel, ΔF is the fuel required to complete the trip,  T<sub>best</sub> is the most efficient time, C<sub>T</sub> is the time related cost per minute of flight, and C<sub>c</sub> represents the fixed cost independent of time.
