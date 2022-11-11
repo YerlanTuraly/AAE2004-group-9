@@ -136,14 +136,15 @@ class AStarPlanner:
                         bestpassengers = passengers
                     passengers = 50
 
+
                     Nbest = math.ceil(TP/bestpassengers) # number of flights with best number of passengers
                     if bestpassengers >= 300:
                         Total_cost_4_engine = (T * 4 * F * Cfuel + T * (18 + 2 * m ) + CF)*Nbest
-                        print("Total cost of twin-engine -> ",Total_cost_4_engine)
+                        print("Total cost of 4-engine -> ",Total_cost_4_engine)
                         print("Passenger capacity -> ",bestpassengers)
                     else:
                         Total_cost_twin_engine = (T * 2 * F * Cfuel + T * (18 + 2 * m ) + CT)*Nbest
-                        print("Total cost of 4-engine -> ",Total_cost_twin_engine)
+                        print("Total cost of twin-engine -> ",Total_cost_twin_engine)
                         print("Passenger capacity ->",bestpassengers)
                 break
             
