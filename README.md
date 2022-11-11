@@ -130,15 +130,21 @@ This is the most efficent flight plan that our group has formulated.
 **Boey's Reflection:** 
 
 ## Contacts
-Yerlan - https://www.linkedin.com/in/yerlan-turaly-5b2310246/ - 22096542d@connect.polyu.hk
-Namnet - 
-Hang - 
-Frederick - 
-Jophy - 
-Tim - 
-Boey - 
+**Yerlan** - https://www.linkedin.com/in/yerlan-turaly-5b2310246/ - 22096542d@connect.polyu.hk
 
-Project Link - 
+**Namnet** - 
+
+**Hang** - 
+
+**Frederick** - 
+
+**Jophy** - 
+
+**Tim** - 
+
+**Boey** - 
+
+**Project Link** - 
 
 ## Project Status
 Project is: in progress
