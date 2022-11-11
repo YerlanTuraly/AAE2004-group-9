@@ -127,6 +127,7 @@ class AStarPlanner:
                         Total_cost = (T * 4 * F * Cfuel + T * (18 + 2 * m ) + CF)*N
                     else:
                         Total_cost = (T * 2 * F * Cfuel + T * (18 + 2 * m ) + CT)*N
+
                     if passengers==250:
                         lowest = Total_cost
                         bestpassengers = passengers
@@ -144,7 +145,7 @@ class AStarPlanner:
                         Total_cost_twin_engine = (T * 2 * F * Cfuel + T * (18 + 2 * m ) + CT)*Nbest
                         print("Total cost of 4-engine -> ",Total_cost_twin_engine)
                         print("Passenger capacity ->",bestpassengers)
-                    break
+                break
             
 
             # Remove the item from the open set
@@ -194,7 +195,7 @@ class AStarPlanner:
         # print(len(closed_set))
         # print(len(open_set))
 
-        return rx, ry
+        return rx, ry, current.cost
 
     def calc_final_path(self, goal_node, closed_set):
         # generate final course
