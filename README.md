@@ -145,7 +145,7 @@ This is the most efficent flight plan that our group has formulated.
 
 **Boey** - 
 
-**Project Link** - 
+**Project Link** - https://github.com/captainnccrruunncchh/AAE2004-group-9
 
 ## Project Status
 Project is: in progress
