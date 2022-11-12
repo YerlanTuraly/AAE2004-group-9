@@ -115,7 +115,7 @@ A potential design for the aircraft
 ![b797-main](https://user-images.githubusercontent.com/116061877/201460210-70e0f01d-554d-414a-a875-baadc2b19493.jpg)
 
 
-**Calculation**: Refering to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found that the total cost approximates to $65682.10 which is much lower than the cost for an A330neo.
+**Calculation**: Refering to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found that the total cost approximates to $69375.13 which is much lower than the cost for an A330neo.
 
 ![Task 3](https://user-images.githubusercontent.com/116084608/201460707-bde85a28-0aa7-467f-ab65-3ceca6e30986.jpg)
 
