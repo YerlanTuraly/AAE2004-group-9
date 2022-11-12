@@ -297,7 +297,7 @@ class AStarPlanner:
                   [0, 1, 1],
                   [-1, 0, 1],
                   [0, -1, 1],
-                  ]
+                  ]#Diagonal movement is disabled
 
         return motion
 
@@ -311,7 +311,7 @@ def main():
         syy = np.random.uniform(-10,60) # [m]
         gxx = np.random.uniform(-10,60)# [m]
         gyy = np.random.uniform(-10,60) # [m]
-        if math.sqrt((sxx-gxx)**2 +(syy-gyy)**2) > 50 :
+        if math.sqrt((sxx-gxx)**2 +(syy-gyy)**2) > 50 :#at least a 50-unit distance in-between
             sx = sxx
             sy = syy
             gx = gxx
@@ -363,7 +363,7 @@ def main():
      
     for i in range(-10, 60):
         ox.extend(np.random.uniform(-10,60,11))
-        oy.extend([i,i,i,i,i,i,i,i,i,i,i])
+        oy.extend([i,i,i,i,i,i,i,i,i,i,i])#Obstacles are generated randomly with reasonable density
     
     # for i in range(40, 45): # draw the button border 
     #     ox.append(i)
@@ -384,7 +384,7 @@ def main():
     for i in range(rn, rn+30):
         for j in range(rn2, rn2+30):
             fc_x.append(i)
-            fc_y.append(j)
+            fc_y.append(j)#the fuel-consuming area remains and generate it randomly with a fixed area
 
 
     if show_animation:  # pragma: no cover
@@ -416,4 +416,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
