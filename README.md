@@ -105,15 +105,22 @@ This is the most efficent flight plan that our group has formulated.
 ## Task 3
 **Goal**: To design a new aircraft model that achives minimum costs for the specific scenarios in [Task1](#task-1).
 
-**Trend**: According to the fuel price analysis, the fuel cost in 2022 had increased a total of 73.7% compared to 2021 which indicated that jumbo jets like B787 or A380 should not be considered in this task.
+**Trend**: According to the fuel price analysis, the fuel cost in 2022 had increased a total of 73.7% compared to 2021 which indicated that jumbo jets like B747 or A380 should not be considered in this task.
 
 **Results**: The aircraft B797 using twin RR Trent 1000 engine is the best fit for scenario 1 in task 1 as this aircraft is able to meet the cost specification between A321 & A330. The targetted no of flights is 11 with 275 passengers per flight.
 
-**Calculation**: While we calculated by refering to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub> to get a reasonable estimate, we also ran the input through the codes inorder to ensure accuracy. Thus the we calculated the total cost of the twin-engiene B797 to be appromimately $66375.134 with a flight time of approximately 77.67 minutes, with passanger capacity of 273 souls onboard.
+
+A potential design for the aircraft
+
+![b797-main](https://user-images.githubusercontent.com/116061877/201460210-70e0f01d-554d-414a-a875-baadc2b19493.jpg)
+
+
+**Calculation**: Refering to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found that the total cost approximates to $65682.10 which is much lower than the cost for an A330neo.
 
 ![Task 3](https://user-images.githubusercontent.com/116084608/201460707-bde85a28-0aa7-467f-ab65-3ceca6e30986.jpg)
 
-**Rationale**: Compared to three other aircrafts types namely the A321neo, A330neo and A350, the passenger capacity of A321neo is only 200 which is not enough for our goal of transporting 3,000 passangers within a week. Also, both A330neo and A350 are four engine aircrafts. As the fuel price had rised significantly, it is clear that the efficency of both aircraft is low. Therefore, only B797 should be considered in this task.
+
+**Reasons Behind**: By comparing other existing aircraft which may be possible candidates for this role such as the A321, A330, A340, A350 and the B787. We determined that an aircraft with a moderate seating capacity and twin-engine layout would be the most efficient. As such we designed our aircraft to have a capacity between the A330-200 (250 seats) and the b787-9 (296 seats), which resulted in our group deciding on an aircraft with a 275-seating capacity. A twin-engine design was favoured due to examing the efficency of the A340 and A350, one had an inefficient quad engine layout whiles the other had a very efficent twin engine layout which help boost its overall appeal. As such it was an easy decision on which engine configuration to choose. Hence we have designed our aircraft the B797 to follow our setout guidelines and to comply with the guidelines of the task.
 
 ## Screenshots
 - xxxx
@@ -151,7 +158,7 @@ This is the most efficent flight plan that our group has formulated.
 ## Contacts
 **Yerlan** - https://www.linkedin.com/in/yerlan-turaly-5b2310246/ - 22096542d@connect.polyu.hk
 
-**Namnet** - 
+**Namnet** - 22031071d@connect.polyu.hk
 
 **Hang** - 
 
