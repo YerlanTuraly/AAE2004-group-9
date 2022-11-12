@@ -95,6 +95,7 @@ This is the most efficent flight plan that our group has formulated.
 
 **Methodology**: Taking the scenario from [Task 1](#task-1) as a background, we had to find the best place to set the jet stream where the cost of the flight is reduced by 5%. The recommended parameters are that the jet stream region stretch across the map laterally and span 5-units vertically.
 
+
 **Results**: 
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/116061877/200550990-c1e6800d-d076-4813-be21-ff3ba1aaaa21.gif)
@@ -108,10 +109,11 @@ This is the most efficent flight plan that our group has formulated.
 
 **Results**: The aircraft B797 using twin RR Trent 1000 engine is the best fit for scenario 1 in task 1 as this aircraft is able to meet the cost specification between A321 & A330. The targetted no of flights is 11 with 275 passengers per flight.
 
-**Calculation**: Refering to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found that the total cost approximates to $65682.10 which is much lower than the cost for an A330neo.
+**Calculation**: While we calculated by refering to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub> to get a reasonable estimate, we also ran the input through the codes inorder to ensure accuracy. Thus the we calculated the total cost of the twin-engiene B797 to be appromimately $66375.134 with a flight time of approximately 77.67 minutes, with passanger capacity of 273 souls onboard.
 
+![Task 3](https://user-images.githubusercontent.com/116084608/201460707-bde85a28-0aa7-467f-ab65-3ceca6e30986.jpg)
 
-**Reasons Behind**: Compare to three other aircrafts types A321neo, A330neo and A350. the passenger capacity of A321neo is only 200 which is not enough. Also, both A330neo and A350 are four engine aircrafts. As the fuel price had rised significantly, it is clear that the efficency of both aircraft is low. Therefore, only B797 should be considered in this task.
+**Rationale**: Compared to three other aircrafts types namely the A321neo, A330neo and A350, the passenger capacity of A321neo is only 200 which is not enough for our goal of transporting 3,000 passangers within a week. Also, both A330neo and A350 are four engine aircrafts. As the fuel price had rised significantly, it is clear that the efficency of both aircraft is low. Therefore, only B797 should be considered in this task.
 
 ## Screenshots
 - xxxx
