@@ -91,33 +91,37 @@ This is the most efficent flight plan that our group has formulated.
 ## Task 2
 **Goal**: To design a new cost area that can reduce the cost of the route.
 
+**Background**: There are certain areas called jet-streams where aircraft could consume relatively less fuel. Jet streams are formed when warm air masses meet cold air masses in the atmosphere. Although, flying with the jet-stream would be quicker and more fuel-efficient. However if the aircraft arrives too early, circling on a holding patter over the airspace is not ideal. In contrast, if the jet stream is weak, flying against it would need more fuel and slow the aircraft down, perhaps resulting in delays. In this task we will aim to create a scenario where we can use the jet stream to our advantage in-order better grasp the concept of flight planning.
+
+**Methodology**: Taking the scenario from [Task 1](#task-1) as a background, we had to find the best place to set the jet stream where the cost of the flight is reduced by 5%. The recommended parameters are that the jet stream region stretch across the map laterally and span 5-units vertically.
+
+**Results**: 
+
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/116061877/200550990-c1e6800d-d076-4813-be21-ff3ba1aaaa21.gif)
-
-
-- xxxx
-- xxxx
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Task 3
 **Goal**: To design a new aircraft model that achives minimum costs for the specific scenarios in [Task1](#task-1).
 
-**Trend**: According to the fuel price analysis, the fuel cost in 2022 had increased a total of 73.7% compare to 2021 which indicated that jumbo jets like B787 or A380 should not be considered in this task.
+**Trend**: According to the fuel price analysis, the fuel cost in 2022 had increased a total of 73.7% compared to 2021 which indicated that jumbo jets like B787 or A380 should not be considered in this task.
 
-**Results**: B797 using twin RR Trent 1000 engine is the best to fit scenario 1 in task 1 as this aircraft is able to fit the cost specification between A321 & A330. The targetted no of flights is 11 with 275 passengers per flight.
+**Results**: The aircraft B797 using twin RR Trent 1000 engine is the best fit for scenario 1 in task 1 as this aircraft is able to meet the cost specification between A321 & A330. The targetted no of flights is 11 with 275 passengers per flight.
 
-**Calculation**: Refer to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found the total cost approximately to $65682.10 which is much lower than the cost for A330neo.
+**Calculation**: Refering to to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found that the total cost approximates to $65682.10 which is much lower than the cost for an A330neo.
+
 
 **Reasons Behind**: Compare to three other aircrafts types A321neo, A330neo and A350. the passenger capacity of A321neo is only 200 which is not enough. Also, both A330neo and A350 are four engine aircrafts. As the fuel price had rised significantly, it is clear that the efficency of both aircraft is low. Therefore, only B797 should be considered in this task.
+
 ## Screenshots
 - xxxx
 
-<p align="right">(<a href="#readme">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a name>)</p>
 
 ## Usage 
 
 
-<p align="right">(<a href="#readme">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a name>)</p>
 
 ## Reflections
 **Yerlan's Reflection:**
