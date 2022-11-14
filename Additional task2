@@ -5,8 +5,13 @@ author: Atsushi Sakai(@Atsushi_twi)
 See Wikipedia article (https://en.wikipedia.org/wiki/A*_search_algorithm)
 This is the simple code for path planning class
 """
+
+
+
 import math
+
 import matplotlib.pyplot as plt
+
 import numpy as np
 
 show_animation = True
@@ -392,12 +397,12 @@ def main():
 
 
     if show_animation:  # pragma: no cover
-        plt.plot(ox, oy, ".k") # plot the obstacle
-        plt.plot(sx, sy, "og") # plot the start position 
-        plt.plot(gx, gy, "xb") # plot the end position
+        plt.plot(ox, oy, ".k",zorder=3) # plot the obstacle
+        plt.plot(sx, sy, "og",zorder=4) # plot the start position 
+        plt.plot(gx, gy, "xb",zorder=5) # plot the end position
         
-        plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
-        plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
+        plt.plot(fc_x, fc_y, "oy",zorder=1) # plot the cost intensive area 1
+        plt.plot(tc_x, tc_y, "or",zorder=2) # plot the cost intensive area 2
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
@@ -420,3 +425,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
