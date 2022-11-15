@@ -42,7 +42,7 @@ Boey - "boeytse"
 
 ## About the project
 
-As efficiency in cost and passanger satisfaction are a crucial factor that determines the sucess of airlines. This project is primarily focused on finding the most an efficeint pathway for a flight under various realworld circumstances using technologies and methods that are easily acessible.
+As efficiency in cost and passanger satisfaction are a crucial factor that determines the success of airlines. This project is primarily focused on finding the most an efficient pathway for a flight under various realworld circumstances using technologies and methods that are easily accessible.
 
 
 
@@ -52,7 +52,7 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 ## Task 1
 **Goal**: To find an appropriate aircraft model that can achieve minimum cost for each given scenario. 
 
-This is the most efficent flight plan that our group has formulated.
+This is the most efficient flight plan that our group has formulated.
 ![gifv2](https://user-images.githubusercontent.com/116061877/200487324-6ef257dd-fb34-4669-9df2-e9cdba3829ab.gif)
 
 **Coding**:
@@ -125,7 +125,7 @@ A potential design for the aircraft
 ![Task 3](https://user-images.githubusercontent.com/116084608/201460707-bde85a28-0aa7-467f-ab65-3ceca6e30986.jpg)
 
 
-**Reasons Behind**: By comparing other existing aircraft which may be possible candidates for this role such as the A321, A330, A340, A350 and the B787. We determined that an aircraft with a moderate seating capacity and twin-engine layout would be the most efficient. As such we designed our aircraft to have a capacity between the A330-200 (250 seats) and the b787-9 (296 seats), so our group initially assumed that an aircraft with a 275-seating capacity will expend the lowest possible cost. A twin-engine design was favoured due to examing the efficency of the A340 and A350, one had an inefficient quad engine layout whiles the other had a very efficent twin engine layout which help boost its overall appeal. As such it was an easy decision on which engine configuration to choose. To solidify our assumption, our group has written a code that calculates whether we need a twin-engine or 4-engine aircrfat with its capacity and operational cost. Hence we have designed our aircraft the B797 to follow our setout guidelines and to comply with the guidelines of the task.
+**Reasons Behind**: By comparing other existing aircraft which may be possible candidates for this role such as the A321, A330, A340, A350 and the B787. We determined that an aircraft with a moderate seating capacity and twin-engine layout would be the most efficient. As such we designed our aircraft to have a capacity between the A330-200 (250 seats) and the b787-9 (296 seats), so our group initially assumed that an aircraft with a 275-seating capacity will expend the lowest possible cost. A twin-engine design was favoured due to examing the efficiency of the A340 and A350, one had an inefficient quad engine layout whiles the other had a very efficient twin engine layout which help boost its overall appeal. As such it was an easy decision on which engine configuration to choose. To solidify our assumption, our group has written a code that calculates whether we need a twin-engine or 4-engine aircrfat with its capacity and operational cost. Hence we have designed our aircraft the B797 to follow our setout guidelines and to comply with the guidelines of the task.
 
 **Coding**:
 
@@ -147,7 +147,9 @@ A potential design for the aircraft
 **Hang's Reflection:** 
 
 
-**Frederick's Reflection:** 
+**Frederick's Reflection:**  Before doing this project, I thought coding is irrelevant to Aviation Engineering this is my first time knowing about coding. Initially, what I was hoping is that after I had finished this project, I don’t need to ‘keep in touch’ with coding anymore. In the first lesson, I downloaded the VS Code to familiarize myself and also it lets me communicate with my groupmates easily. Personally, I hate using a computer so much. Therefore, I spent a lot of time learning how to use the VS Code but there were many technical issues existed and I feel helpless at that time. Luckily, my groupmates are generous and they help me to fix the issue. After that, I successfully finished some parts of task 1 such as editing both the start node and goal node. After that, I did task 3 in the readme to explain which aircraft we selected to best fit Scenario 1 in task 1 and the reason why we had selected this aircraft. I collected some information from my groupmates related to calculation parts and summarize it in the readme. Trends, results and reasons etc. had been explained deeply in the readme to support why we had selected B797 to minimize the costs for task 1.
+
+In this project, what I learned is that coding took an important role not just in our course, it also affected the whole world. For example, in our project, we are required to use coding to solve three tasks these three tasks are really complicated or even impossible if it is solved by our own hands. Therefore, we need to overcome any challenges as using advanced technologies will be a trend in the real world situation. Moreover, to determine whether an airline is successful or not, there are many factors we need to consider.
 
 
 **Jophy's Reflection:**     As I was majorly focus on the calculations part in Task 1 and Task 3, as well as deciding the type of aircraft we would like to design, this project really opened my eyes up on the algorithms behind the aviation industry in order to strive for profit maximization due to the skyrocketting fuel price and meeting the market demand. It was never an easy task to decide the best aircraft for the route due to all sorts of constraints and being able to optimize the cost and the revenue of each flight can have a significant impact an an airline's financial state and sustainability.  Morover, this project also equipped me the basics on coding which this area is vitally important to the future development of the aviation industry regarding safety and profit-making. Being an aviation enthusiast since a young age, I have tried several airline managing games in the past and I used to spend quite a lot of effort on the calculations of each flight using in-game statistics. Those experiences really bring me an upper hand in this project and I am looking forward to apply those knowledge acquired from the project into my future career.
