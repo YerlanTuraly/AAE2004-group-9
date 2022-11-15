@@ -55,6 +55,8 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 This is the most efficent flight plan that our group has formulated.
 ![gifv2](https://user-images.githubusercontent.com/116061877/200487324-6ef257dd-fb34-4669-9df2-e9cdba3829ab.gif)
 
+**Coding**:
+
 ### Senario 1
 
 **Methodology**: We first setup our obstacles and cost intensive areas, which represent physical or environmental barriers and areas that should be avoided to maximize performance. Then we used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>,  where C<sub>F</sub> represents the cost of fuel, ΔF is the fuel required to complete the trip,  T<sub>best</sub> is the most efficient time, C<sub>T</sub> is the time related cost per minute of flight, and C<sub>c</sub> represents the fixed cost independent of time.
@@ -102,6 +104,8 @@ This is the most efficent flight plan that our group has formulated.
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
+**Coding**:
+
 ## Task 3
 **Goal**: To design a new aircraft model that achives minimum costs for the specific scenarios in [Task1](#task-1).
 
@@ -121,6 +125,8 @@ A potential design for the aircraft
 
 
 **Reasons Behind**: By comparing other existing aircraft which may be possible candidates for this role such as the A321, A330, A340, A350 and the B787. We determined that an aircraft with a moderate seating capacity and twin-engine layout would be the most efficient. As such we designed our aircraft to have a capacity between the A330-200 (250 seats) and the b787-9 (296 seats), so our group initially assumed that an aircraft with a 275-seating capacity will expend the lowest possible cost. A twin-engine design was favoured due to examing the efficency of the A340 and A350, one had an inefficient quad engine layout whiles the other had a very efficent twin engine layout which help boost its overall appeal. As such it was an easy decision on which engine configuration to choose. To solidify our assumption, our group has written a code that calculates whether we need a twin-engine or 4-engine aircrfat with its capacity and operational cost. Hence we have designed our aircraft the B797 to follow our setout guidelines and to comply with the guidelines of the task.
+
+**Coding**:
 
 ## Screenshots
 - xxxx
