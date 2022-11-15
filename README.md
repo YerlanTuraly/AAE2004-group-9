@@ -131,10 +131,6 @@ A potential design for the aircraft
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
-## Screenshots
-- xxxx
-
-<p align="right">(<a href="#readme-top">back to top</a name>)</p>
 
 ## Usage 
 
