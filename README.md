@@ -150,7 +150,7 @@ A potential design for the aircraft
 **Frederick's Reflection:** 
 
 
-**Jophy's Reflection:**     As I was majorly focus on the calculations part in Task 1 and Task 3, as well as deciding the type of aircraft we would like to design, this project really opened my eyes up on the algorithms behind the aviation industry in order to strive for profit maximization due to the skyrocketting fuel price and meeting the market demand. It was never an easy task to decide the best aircraft for the route due to all sorts of constraints.
+**Jophy's Reflection:**     As I was majorly focus on the calculations part in Task 1 and Task 3, as well as deciding the type of aircraft we would like to design, this project really opened my eyes up on the algorithms behind the aviation industry in order to strive for profit maximization due to the skyrocketting fuel price and meeting the market demand. It was never an easy task to decide the best aircraft for the route due to all sorts of constraints and being able to optimize the cost and the revenue of each flight can have a significant impact an an airline's financial state and sustainability.  Being an enthusiast oiation since a young age, I have tried several airline managing games in the past and those experiences really bring me an upper hand in this project.
 
 
 **Tim's Reflection:** 
@@ -165,7 +165,7 @@ A potential design for the aircraft
 
 **Namnet** - 22031071d@connect.polyu.hk
 
-**Hang** - 22072105d@connect.polyu.hk
+**Hang** - 
 
 **Frederick** - pts031022@gmail.com
 
@@ -173,8 +173,7 @@ A potential design for the aircraft
 
 **Tim** - timmttsang@yahoo.com.hk
 
-**Boey** - 22075814d@connect.polyu.hk
-
+**Boey** -22075814d@connect.polyu.hk
 
 **Project Link** - https://github.com/captainnccrruunncchh/AAE2004-group-9
 
