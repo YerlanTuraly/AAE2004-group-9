@@ -57,7 +57,7 @@ This is the most efficient flight plan that our group has formulated.
 
 **Coding**:
 
-### Senario 1
+### Scenario 1
 
 **Methodology**: We first setup our obstacles and cost intensive areas, which represent physical or environmental barriers and areas that should be avoided to maximize performance. Then we used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>,  where C<sub>F</sub> represents the cost of fuel, ΔF is the fuel required to complete the trip,  T<sub>best</sub> is the most efficient time, C<sub>T</sub> is the time related cost per minute of flight, and C<sub>c</sub> represents the fixed cost independent of time.
 
@@ -67,7 +67,7 @@ This is the most efficient flight plan that our group has formulated.
 
 ![t1](https://user-images.githubusercontent.com/116061877/200476914-79e418d0-d2c1-4277-a744-4918da13b3f3.jpeg)
 
-### Senario 2
+### Scenario 2
 
 **Methodology**: We first setup our obstacles and cost intensive areas, which represent physical or environmental barriers and areas that should be avoided to maximize performance. Then we used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>,  where C<sub>F</sub> represents the cost of fuel, ΔF is the fuel required to complete the trip,  T<sub>best</sub> is the most efficient time, C<sub>T</sub> is the time related cost per minute of flight, and C<sub>c</sub> represents the fixed cost independent of time.
 
@@ -75,10 +75,10 @@ This is the most efficient flight plan that our group has formulated.
 
 **Results**: The program calculated the time required to fly the proposed flight path. The rest of the calculation was also rechecked using the Cost function (C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>.  and comparing the performance and between two widebody airliners the Airbus 330neo and Airbus350-900 which came out to be approximately $49191.80 and $45168.54 per trip, respectively. Therefore, we came to a conclusion that Airbus 350neo would be the best option for the scenario.
 
-![Scenrio 2](https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
+![Scenario 2](https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
 
 
-### Senario 3
+### Scenario 3
 
 **Methodology**: We first setup our obstacles and cost intensive areas, which represent physical or environmental barriers and areas that should be avoided to maximize performance. Then we used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>,  where C<sub>F</sub> represents the cost of fuel, ΔF is the fuel required to complete the trip,  T<sub>best</sub> is the most efficient time, C<sub>T</sub> is the time related cost per minute of flight, and C<sub>c</sub> represents the fixed cost independent of time.
 
@@ -108,7 +108,7 @@ This is the most efficient flight plan that our group has formulated.
 
 
 ## Task 3
-**Goal**: To design a new aircraft model that achives minimum costs for the specific scenarios in [Task1](#task-1).
+**Goal**: To design a new aircraft model that achieves minimum costs for the specific scenarios in [Task1](#task-1).
 
 **Trend**: According to the fuel price analysis, the fuel cost in 2022 had increased a total of 73.7% compared to 2021 which indicated that jumbo jets like B747 or A380 should not be considered in this task.
 
