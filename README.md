@@ -150,7 +150,7 @@ A potential design for the aircraft
 **Frederick's Reflection:** 
 
 
-**Jophy's Reflection:**     gh342urg23uireg
+**Jophy's Reflection:**     As I was majorly focus on the calculations part in Task 1 and Task 3, as well as deciding the type of aircraft we would like to design, this project really opened my eyes up on the algorithms behind the aviation industry in order to strive for profit maximization due to the skyrocketting fuel price and meeting the market demand. It was never an easy task to decide the best aircraft for the route due to all sorts of constraints.
 
 
 **Tim's Reflection:** 
