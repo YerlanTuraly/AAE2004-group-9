@@ -168,7 +168,7 @@ Thus, we are able to optimize the cost and the revenue of each flight as it can 
 
 **Namnet** - 22031071d@connect.polyu.hk
 
-**Hang** - 
+**Hang** - 22072105d@connect.polyu.hk
 
 **Frederick** - pts031022@gmail.com
 
