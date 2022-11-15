@@ -162,13 +162,13 @@ A potential design for the aircraft
 
 **Hang** - 
 
-**Frederick** - 
+**Frederick** - pts031022@gmail.com
 
-**Jophy** - 
+**Jophy** - jhtse72@gmail.com
 
-**Tim** - 
+**Tim** - timmttsang@yahoo.com.hk
 
-**Boey** - 
+**Boey** -boeytse0822@gmail.com
 
 **Project Link** - https://github.com/captainnccrruunncchh/AAE2004-group-9
 
