@@ -165,7 +165,7 @@ A potential design for the aircraft
 
 **Namnet** - 22031071d@connect.polyu.hk
 
-**Hang** - 
+**Hang** - 22072105d@connect.polyu.hk
 
 **Frederick** - pts031022@gmail.com
 
@@ -173,7 +173,8 @@ A potential design for the aircraft
 
 **Tim** - timmttsang@yahoo.com.hk
 
-**Boey** -22075814d@connect.polyu.hk
+**Boey** - 22075814d@connect.polyu.hk
+
 
 **Project Link** - https://github.com/captainnccrruunncchh/AAE2004-group-9
 
