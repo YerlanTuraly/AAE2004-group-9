@@ -113,8 +113,6 @@ This is the most efficent flight plan that our group has formulated.
 
 **Coding**:
 
-<p align="right">(<a href="#readme">back to top</a>)</p>
-
 ![IMG-20221115-WA0011](https://user-images.githubusercontent.com/116084608/202359542-d97b9104-49c1-48ca-9c13-50e9b718d0ab.jpg)
 
 At this part, we add a new area, a jet stream area. Understanding that aircraft's path will be only between somewhere around 10 and 50(Those values are not exact, but very close), we have managed the x range between 10 and 49. Meanwhile, i is in range -10 till 60, which is probably the whole horizontal range of the map, we have managed the range of j as x and x+5 since the jet stream's size was only 5 points, where x is some uknown for us constant, so code should consider the whole pointed area for the most effective place to suit this stream. 
@@ -141,6 +139,8 @@ Evene if the previous codes probably calculate the best x value and hence the be
 
 Even though, just adding codes will not make programme work since we have not put js_x and js_y with x at the "a_star" and "rx, ry, costapth" content in the code. Without putting them, programme could not proceed all calculations at the output since it has no such command. hHowever, changing this part which is showed in the screenshot, we make coding to include jet-stream too in the whole process.
 
+<p align="right">(<a href="#readme">back to top</a>)</p>
+
 ## Task 3
 **Goal**: To design a new aircraft model that achieves minimum costs for the specific scenarios in [Task1](#task-1).
 
@@ -162,8 +162,6 @@ A potential design for the aircraft
 **Reasons Behind**: By comparing other existing aircraft which may be possible candidates for this role such as the A321, A330, A340, A350 and the B787. We determined that an aircraft with a moderate seating capacity and twin-engine layout would be the most efficient. As such we designed our aircraft to have a capacity between the A330-200 (250 seats) and the b787-9 (296 seats), so our group initially assumed that an aircraft with a 275-seating capacity will expend the lowest possible cost. A twin-engine design was favoured due to examing the efficency of the A340 and A350, one had an inefficient quad engine layout whiles the other had a very efficent twin engine layout which help boost its overall appeal. As such it was an easy decision on which engine configuration to choose. To solidify our assumption, our group has written a code that calculates whether we need a twin-engine or 4-engine aircrfat with its capacity and operational cost. Hence we have designed our aircraft the B797 to follow our setout guidelines and to comply with the guidelines of the task.
 
 **Coding**:
-
-<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ![IMG-20221115-WA0014](https://user-images.githubusercontent.com/116084608/202359677-9eea788e-3ec3-43e5-b214-b0bd23ba06b7.jpg)
 
@@ -190,6 +188,8 @@ In this part, we make the code search the most reliable results of both costs an
 ![IMG-20221115-WA0016](https://user-images.githubusercontent.com/116084608/202359709-08e7948e-25c2-4de2-9bdf-c02044a4f821.jpg)
 
 This formula is pretty similar with formulas in task 1 and 2, but here the coding can give either one of the solution which is probably describes all information that is needed. Already calculating the best number of passengers, the code proceeds its further calculation of the Total_cost of our new aircraft, by checking in which condition the capacity suits more. The part "if bestpassengers >= 300" makes coding to choose which type of new aircraft we should use to minimize our costs. If a new aircraft's capacity is higher, then coding print name of a new aircraft, the number of engines that it should possess, and the cost that it requires for operation. Moreover, it, also, prints the number of seats that is needed for the aircraft to fulfill requirements. Otherwise, if the number of passengers is lower than 300, as in our case, it swicthes to twin-engine aircraft, showing its passenger capacity and operational cost.  
+
+<p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Usage 
 
