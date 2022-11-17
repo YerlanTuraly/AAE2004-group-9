@@ -4,8 +4,9 @@
 
 # Built With 
 
->
 **Leader:** 
+
+
 Yerlan - "captainnccrruunncchh"
 
 **Member 2:** 
@@ -57,6 +58,15 @@ This is the most efficent flight plan that our group has formulated.
 
 **Coding**:
 
+>![IMG-20221115-WA0005](https://user-images.githubusercontent.com/116084608/202359218-bb89ef6b-bb16-41a1-ba1f-50b204c73ea7.jpg)
+![IMG-20221115-WA0006](https://user-images.githubusercontent.com/116084608/202359228-77b299ba-fbce-49d8-b555-7ae1da43fe6d.jpg)
+![IMG-20221115-WA0007](https://user-images.githubusercontent.com/116084608/202359260-39ebbaa4-ed1a-4e5d-bcdc-d5aaa1b999a7.jpg)
+![IMG-20221115-WA0008](https://user-images.githubusercontent.com/116084608/202359371-031b45c8-a16d-427b-a357-846365976e93.jpg)
+![IMG-20221115-WA0009](https://user-images.githubusercontent.com/116084608/202359400-782e8248-40fb-490f-b277-eb1028a38bf0.jpg)
+![IMG-20221115-WA0010](https://user-images.githubusercontent.com/116084608/202359409-980aa882-7285-4b2a-8026-09531fa416da.jpg)
+
+
+
 ### Scenario 1
 
 **Methodology**: We first setup our obstacles and cost intensive areas, which represent physical or environmental barriers and areas that should be avoided to maximize performance. Then we used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>,  where C<sub>F</sub> represents the cost of fuel, ΔF is the fuel required to complete the trip,  T<sub>best</sub> is the most efficient time, C<sub>T</sub> is the time related cost per minute of flight, and C<sub>c</sub> represents the fixed cost independent of time.
@@ -102,9 +112,15 @@ This is the most efficent flight plan that our group has formulated.
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/116061877/200550990-c1e6800d-d076-4813-be21-ff3ba1aaaa21.gif)
 
+
 **Coding**:
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
+
+![IMG-20221115-WA0011](https://user-images.githubusercontent.com/116084608/202359542-d97b9104-49c1-48ca-9c13-50e9b718d0ab.jpg)
+
+![IMG-20221115-WA0012](https://user-images.githubusercontent.com/116084608/202359563-2667faf4-3fb6-4e07-82d9-8d3c5f02d860.jpg)
+![IMG-20221115-WA0013](https://user-images.githubusercontent.com/116084608/202359649-d8b52aa5-c71e-4d18-9b4d-a004f1dabca9.jpg)
 
 
 ## Task 3
@@ -131,6 +147,11 @@ A potential design for the aircraft
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
+![IMG-20221115-WA0014](https://user-images.githubusercontent.com/116084608/202359677-9eea788e-3ec3-43e5-b214-b0bd23ba06b7.jpg)
+
+![IMG-20221115-WA0015](https://user-images.githubusercontent.com/116084608/202359695-74d42f47-2578-493b-bcd8-8019764de541.jpg)
+
+![IMG-20221115-WA0016](https://user-images.githubusercontent.com/116084608/202359709-08e7948e-25c2-4de2-9bdf-c02044a4f821.jpg)
 
 ## Usage 
 
