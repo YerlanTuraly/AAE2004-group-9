@@ -5,8 +5,6 @@
 # Built With 
 
 **Leader:** 
-
-
 Yerlan - "captainnccrruunncchh"
 
 **Member 2:** 
