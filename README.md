@@ -117,9 +117,29 @@ This is the most efficent flight plan that our group has formulated.
 
 ![IMG-20221115-WA0011](https://user-images.githubusercontent.com/116084608/202359542-d97b9104-49c1-48ca-9c13-50e9b718d0ab.jpg)
 
+At this part, we add a new area, a jet stream area. Understanding that aircraft's path will be only between somewhere around 10 and 50(Those values are not exact, but very close), we have managed the x range between 10 and 49. Meanwhile, i is in range -10 till 60, which is probably the whole horizontal range of the map, we have managed the range of j as x and x+5 since the jet stream's size was only 5 points, where x is some uknown for us constant, so code should consider the whole pointed area for the most effective place to suit this stream. 
+
+The last part of coding:
+
+" if x==10:
+   lowest = costpath
+   bestx = x"
+
+We make coding to start from coordinate 10, calculating a new costpath as the lowest one, and making this x, which is 10, as the best coordinate. Continuing, we have added the next part:
+
+"if costpath < lowest:
+   lowest = costpath
+   bestx = x"
+   
+Here we just make the programme to calculate all possible values of x and comparing all costpath with each other, for finding the best x value. The new and hence final x value we mention as bestx for our further calculations. 
+
 ![IMG-20221115-WA0012](https://user-images.githubusercontent.com/116084608/202359563-2667faf4-3fb6-4e07-82d9-8d3c5f02d860.jpg)
+
+Evene if the previous codes probably calculate the best x value and hence the best area for fitting jet stream area, the code itself will not work, since it will take only the first value x, which is 10, and put it in all formulas without consideration of other values. It is why we have to add this part to make it elaborate. At that part, we mention j range from bestx and bestx+5 that are revealed from previous code, so now it is chooses best area for et stream basing on best x value.
+
 ![IMG-20221115-WA0013](https://user-images.githubusercontent.com/116084608/202359649-d8b52aa5-c71e-4d18-9b4d-a004f1dabca9.jpg)
 
+Even though, just adding codes will not make programme work since we have not put js_x and js_y with x at the "a_star" and "rx, ry, costapth" content in the code. Without putting them, programme could not proceed all calculations at the output since it has no such command. hHowever, changing this part which is showed in the screenshot, we make coding to include jet-stream too in the whole process.
 
 ## Task 3
 **Goal**: To design a new aircraft model that achieves minimum costs for the specific scenarios in [Task1](#task-1).
