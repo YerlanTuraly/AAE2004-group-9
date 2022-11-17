@@ -148,10 +148,27 @@ A potential design for the aircraft
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ![IMG-20221115-WA0014](https://user-images.githubusercontent.com/116084608/202359677-9eea788e-3ec3-43e5-b214-b0bd23ba06b7.jpg)
+This part of coding is just a list of constant for future calculations that will be made. Taking scenario 1 from task 1, our newly designed aircraft should carry 3000 passengers in a week, with maximum number of flights of 12. We have, also, input other constants such as CT and CF for both twin and 4 engine aircrafts, but the most vital part is the "usdbbl". Looking at provided table, we have taken a value for Asia and Oceania Region since this region is more actual than others for us. 
 
 ![IMG-20221115-WA0015](https://user-images.githubusercontent.com/116084608/202359695-74d42f47-2578-493b-bcd8-8019764de541.jpg)
+This part is the most essential for completing Task 3. Firstly, we have written a formula for converting from usd per barrel to cost for fuel in terms of kilograms since further calculations should include exactly kilograms, but not barrels. Next two formulas of "m" and "N" are responsible for adding additional costs for every 50 passengers and  revealing the total number of flights, which will not be changed in further, respectively. Both values are rounded to the next number by code "math.ceil".
+
+Continuing the code, we can note that there are two possible outcomes of Total_cost, where one of them is for twin-engine aircraft, while the second one is for 4-engine and from now, the most interesting part starts:
+
+"if passengers==250:
+   lowest = Total_cost
+   bestpassengers = passengers"
+
+Here we make the code start to calculate the most cheapest value and the best type of aircraft in terms of engine by itself. Starting from the lowest number of passenegrs, 250, code makes the Total_cost of 250 people as the lowest and bestpassengers, number of passengers that suits much more for our case, as 250.
+The second part of the code:
+
+"if Total_cost < lowest:
+   lowest = Total_cost
+   bestpassengers = passengers"
+In this part, we make the code search the most reliable results of both costs and number of passengers by itself by comparing all values and choosing the most effective one. 
 
 ![IMG-20221115-WA0016](https://user-images.githubusercontent.com/116084608/202359709-08e7948e-25c2-4de2-9bdf-c02044a4f821.jpg)
+This formula is pretty similar with formulas in task 1 and 2, but here the coding can give either one of the solution which is probably describes all information that is needed. The part "if bestpassengers >= 300" makes coding to choose which type of new aircraft we should use to minimize our costs. If a new aircraft's capacity is higher, then coding print name of a new aircraft, the number of engines that it should possess, and the cost that it requires for operation. Moreover, it, also, prints the number of seats that is needed for the aircraft to fulfill requirements. Otherwise, if the number of passengers is lower than 300, as in our case, it swicthes to twin-engine aircraft, showing its passenger capacity and operational cost.  
 
 ## Usage 
 
