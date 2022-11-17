@@ -120,7 +120,7 @@ A potential design for the aircraft
 ![b797-main](https://user-images.githubusercontent.com/116061877/201460210-70e0f01d-554d-414a-a875-baadc2b19493.jpg)
 
 
-**Calculation**: Refering to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found that the total cost approximates to $69375.13 which is much lower than the cost for an A330neo. Meanwhile, the capacity of newly designed aircraft, B797, is 273 passengers. Allowing us to exploit twin-engine aircraft, flying 11 flights weekly. 
+**Calculation**: Refering to the formula Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>, We have found that the total cost approximates to $69375.13 which is much lower than the cost for an A330neo. Meanwhile, the capacity of newly designed aircraft, B797, is 273 passengers. Allowing us to exploit twin-engine aircraft, flying 11 flights weekly. Having a table of fuel price, we have noted that bbl was mainly used there, it is why we used this website, "https://www.convertunits.com/from/barrel+%5bUS,+liquid%5d/to/kilo+gram#:~:text=Quick%20conversion%20chart%20of%20barrel%20%5BUS%2C%20liquid%5D%20to,liquid%5D%20to%20kilo%20gram%20%3D%20238.48094%20kilo%20gram", for converting barrels to kilograms for further calculations in coding
 
 ![Task 3](https://user-images.githubusercontent.com/116084608/201460707-bde85a28-0aa7-467f-ab65-3ceca6e30986.jpg)
 
