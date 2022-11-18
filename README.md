@@ -82,7 +82,7 @@ This part is the most simple and easy one. Here we just put our coordinates of s
 
 ![IMG-20221115-WA0009](https://user-images.githubusercontent.com/116084608/202359400-782e8248-40fb-490f-b277-eb1028a38bf0.jpg)
 
-This code represents the obstacles that do not let aircraft to fly throught them. 
+This code represents the obstacles that do not let aircraft to fly throught them. For example, the second obstacle. As we can note from the gif, there are only 3 additional obstacles in our map, where two of them are lines with a slope. Setting its range from 40 to 50 at x coordinates, we have to put it like shown above "for i in range(40, 50):", continuing it by "ox.append". In "ox.append", we just need to i in bracets, while in "oy.append" we have to input the equation which is obtained. It is a "-2*i +140", where i represents x, -2 is the slope of this line in range of 40 to 50, and +140 as a y-intercept. For getting those values, the slope and intercept. We have to use the basic equation from math, y = kx + b, and create a system that contains 2 uknown values k and b and hence find out them manually.
 
 ![IMG-20221115-WA0010](https://user-images.githubusercontent.com/116084608/202359409-980aa882-7285-4b2a-8026-09531fa416da.jpg)
 
