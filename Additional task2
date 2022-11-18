@@ -278,11 +278,11 @@ def main():
 
     # start and goal position
     while True :
-        sxx = random.randrange(-9,59)  # [m]
-        syy = random.randrange(-9,59) # [m]
-        gxx = random.randrange(-9,59)# [m]
-        gyy = random.randrange(-9,59) # [m]
-        if math.sqrt((sxx-gxx)**2 +(syy-gyy)**2) > 50 :#at least a 50-unit distance in-between
+        sxx = random.randrange(-8,58)  # [m]
+        syy = random.randrange(-8,58) # [m]
+        gxx = random.randrange(-8,58)# [m]
+        gyy = random.randrange(-8,58) # [m]
+        if math.sqrt((sxx-gxx)**2 +(syy-gyy)**2) > 50 and abs(gxx - sxx) >20:#at least a 50-unit distance in-between
             sx = sxx
             sy = syy
             gx = gxx
