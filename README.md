@@ -207,7 +207,12 @@ To sum up, having GitHub project just did not teach me some basic concepts in co
 **Namnet's Reflection:** 
 
 
-**Hang's Reflection:** 
+**Hang's Reflection:** The first day that I stepped into the lecture hall, I was as always, late. Fortunately, my teammates were there and they even had a seat for me. You are welcome! Then when the lecturer started talking about the the project, I told myself, “I am so forked.” I mean coding for real, and like for a significant project? Anyways, I listened on nodding to every single word Dr. Hsu said, as if I knew I what he was saying. It takes patience to listen and it takes skill to pretend you’re listening, I have skills.
+
+Anyways, I saw that the project was not all about making computers do things for you. We also had to write summaries notoriously called the Read.me, make PowerPoint slides, and even a record video. When Dr. Hsu stated that we need to nominate a group leader at the first lecture, it was one of the most memorable moment. Everyone started playing hide-and-seek at once. “Ummm, I don’t know coding, do you?” Fortunately, we fund a leader and our team members exhibited selflessness to such a degree that I think they should receive a 'Medal of Hard-work’. Some even worked tirelessly on the code throughout the day and night, including, as far as I can recall, other subject lectures. 
+
+The initiative allowed me to get to know some extremely wonderful and selfless individuals and deepen my friendship with others I was previously acquainted with. I picked up a few technical tips here and there, but the greatest part was that I got to write, which is something I like doing.
+
 
 
 **Frederick's Reflection:** 
