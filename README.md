@@ -59,14 +59,34 @@ This is the most efficent flight plan that our group has formulated.
 >![IMG-20221115-WA0005](https://user-images.githubusercontent.com/116084608/202359218-bb89ef6b-bb16-41a1-ba1f-50b204c73ea7.jpg)
 
 Those two rows are accountable for the percentage charge of going through these two cost intensive areas, cost and time zones. In each row we can detect C1 and C2 which represents own intensive areas. After the part "self.Delta_C1" we wrote numbers such as 0.2 and 0.4 which represent 20% and 40$ respectively, but in numerical aspect. For example, when the aircraft will fly over time intensive area, every point in it will increase tspent amount of time by 20%; however, if you are eager you to change those charges to another one, you can just replace it here to any other value.  
+
 ![IMG-20221115-WA0006](https://user-images.githubusercontent.com/116084608/202359228-77b299ba-fbce-49d8-b555-7ae1da43fe6d.jpg)
 
+Here, starting from row 6 we have added many constants in the code. Firts of all, the most essential part is time. The code here already calculates the total amount of time that is necessary for the path ("current.cost"), so we just named this value by T, simplifying our future coding formulas. 
+
+As we have 3 different scenarios with 3 different aircrafts, I have written each constant for each aircraft separately, making it more easier to understand and change in the future; here we can note the constant values of A321neo aircraft, where I have added its Fuel consumption, capacity, different cost time, and fixed cost values, which will be used in the formulas presented in the next photo.
 
 ![IMG-20221115-WA0007](https://user-images.githubusercontent.com/116084608/202359260-39ebbaa4-ed1a-4e5d-bcdc-d5aaa1b999a7.jpg)
+
+At that point, we already have all vital constant values for our aircraft, so we can start our coding for calculating its cost of operation. 
+
+"N320 = math.ceil(TP / P321)"
+
+This part calculates the total number of flights necessary for A321neo to carry all 3000 passengers in a week. Moreover, I have added "math.ceil" part since we have to round this value. As no aircraft can make a number of 0.5 flight to somew place.
+
+Next row shows us a whole formula that is crucial for calculating the total cost of this type of aircraft. Continuing further, you can notice that next 4 rows contains "if" condition. At that part, the code decides by itself, should it include the cost of operation at the end or it should say that the aircraft is not viable due to the excessed number of flights per week by "if N320 <= 12" part that shows if total number of calculated flights is less or equal to 12 or not.
+
 ![IMG-20221115-WA0008](https://user-images.githubusercontent.com/116084608/202359371-031b45c8-a16d-427b-a357-846365976e93.jpg)
+
+This part is the most simple and easy one. Here we just put our coordinates of staring and goal points in both x and y coordinates.
+
 ![IMG-20221115-WA0009](https://user-images.githubusercontent.com/116084608/202359400-782e8248-40fb-490f-b277-eb1028a38bf0.jpg)
+
+
+
 ![IMG-20221115-WA0010](https://user-images.githubusercontent.com/116084608/202359409-980aa882-7285-4b2a-8026-09531fa416da.jpg)
 
+The last part of code that should be mentioned is setting of intensive areas. Let's consider only cost intensive area 1 since they both pretty similar in the code content. The second row, "for i in range(-10, 10)" we have set the coordinates of our time intesinve area  between -10 and 10 of x values. Consequently, the next row "for j in range(20, 40)" we have, also, set coordinates ranging from 20 to 40 in y coordinate terms. Meanwhile, next two rows with "append" content are essential for seting up this area in our final map calculation.
 
 
 ### Scenario 1
