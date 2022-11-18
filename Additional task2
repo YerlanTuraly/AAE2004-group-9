@@ -1,9 +1,14 @@
 """
+
 A* grid planning
+
 author: Atsushi Sakai(@Atsushi_twi)
         Nikos Kanargias (nkana@tee.gr)
+
 See Wikipedia article (https://en.wikipedia.org/wiki/A*_search_algorithm)
+
 This is the simple code for path planning class
+
 """
 
 
@@ -14,6 +19,8 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
+import random
+
 show_animation = True
 
 
@@ -22,6 +29,7 @@ class AStarPlanner:
     def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y):
         """
         Initialize grid map for a star planning
+
         ox: x position list of Obstacles [m]
         oy: y position list of Obstacles [m]
         resolution: grid resolution [m]
@@ -43,8 +51,8 @@ class AStarPlanner:
         self.tc_y = tc_y
         
 
-        self.Delta_C1 = 0.2 # cost intensive area 1 modifier time
-        self.Delta_C2 = 0.4 # cost intensive area 2 modifier fuel
+        self.Delta_C1 = 0.2 # cost intensive area 1 modifier
+        self.Delta_C2 = 1 # cost intensive area 2 modifier
 
         self.costPerGrid = 1 
 
@@ -63,11 +71,13 @@ class AStarPlanner:
     def planning(self, sx, sy, gx, gy):
         """
         A star path search
+
         input:
             s_x: start x position [m]
             s_y: start y position [m]
             gx: goal x position [m]
             gy: goal y position [m]
+
         output:
             rx: x position list of the final path
             ry: y position list of the final path
@@ -109,56 +119,7 @@ class AStarPlanner:
                 print("Total Trip time required -> ",current.cost )
                 goal_node.parent_index = current.parent_index
                 goal_node.cost = current.cost
-                T = current.cost 
-                #A321neo
-                F321 = 54 #Fuel Consumption
-                P321 = 200 #Passenger capacity
-                TL321 = 10 #Cost time Low
-                TM321 = 15 #Cost time Medium 
-                TH321 = 20 #Cost time High
-                CA321 = 1800 #Fixed Cost
-                #A330-900neo
-                F330 = 84 #Fuel Consumption
-                P330 = 300 #Passenger capacity
-                TL330 = 15 #Cost time Low
-                TM330 = 21 #Cost time Medium 
-                TH330 = 27 #Cost time High
-                CA330 = 2000 #Fixed Cost
-                #A350-900
-                F350 = 90 #Fuel Consumption
-                P350 = 350 #Passenger capacity
-                TL350 = 20 #Cost time Low
-                TM350 = 27 #Cost time Medium 
-                TH350 = 34 #Cost time High
-                CA350 = 2500 #Fixed Cost
-                #Scenario 
-                TP = 3000 #Total passengers per week
-                MF = 12 # Maximum number of flights per week
-                CF = 0.76 #Cost fuel 
-
-                N320 = math.ceil(TP / P321) #number of flights capable, maximum 12
-                Total_cost_A321 = (T * F321 * CF + T * TM321 + CA321) * N320
-                if N320<=12:
-                    print("Total Cost of A321neo -> ",Total_cost_A321)
-                else:
-                    print("A321neo is not viable")
-
-                N330 = math.ceil(TP / P330) #number of flights capable, maximum 12
-                Total_cost_A330 = (T * F330 * CF + T * TM330 + CA330) * N330
-                if N330<=12:
-                    print("Total Cost of A330-900neo -> ",Total_cost_A330)
-                else:
-                    print("A330-900neo is not viable")
-                
-                N350 = math.ceil(TP / P350) #number of flights capable, maximum 12
-                Total_cost_A350 = (T * F350 * CF + T * TM350 +CA350) * N350
-                if N350<=12:
-                    print("Total Cost of A350-900 -> ",Total_cost_A350)
-                else:
-                    print("A350-900 is not viable")
                 break
-
-            
 
             # Remove the item from the open set
             del open_set[c_id]
@@ -238,6 +199,7 @@ class AStarPlanner:
     def calc_grid_position(self, index, min_position):
         """
         calc grid position
+
         :param index:
         :param min_position:
         :return:
@@ -306,7 +268,7 @@ class AStarPlanner:
                   [0, 1, 1],
                   [-1, 0, 1],
                   [0, -1, 1],
-                  ]#Diagonal movement is disabled
+                 ]
 
         return motion
 
@@ -316,10 +278,10 @@ def main():
 
     # start and goal position
     while True :
-        sxx = np.random.uniform(-10,60)  # [m]
-        syy = np.random.uniform(-10,60) # [m]
-        gxx = np.random.uniform(-10,60)# [m]
-        gyy = np.random.uniform(-10,60) # [m]
+        sxx = random.randrange(-9,59)  # [m]
+        syy = random.randrange(-9,59) # [m]
+        gxx = random.randrange(-9,59)# [m]
+        gyy = random.randrange(-9,59) # [m]
         if math.sqrt((sxx-gxx)**2 +(syy-gyy)**2) > 50 :#at least a 50-unit distance in-between
             sx = sxx
             sy = syy
@@ -329,7 +291,19 @@ def main():
             break
     grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
-  
+
+    xxx =[]
+    while len(xxx) < 1000:
+        aaa = random.uniform(-10,60)
+        if aaa < sx+2 and aaa > sx-2:
+            continue
+        if aaa < gx+2 and aaa > gx-2:
+            continue
+        else :
+            xxx.append(aaa)
+   
+    xx = xxx[:len(xxx)//2]
+    yy = xxx[len(xxx)//2:]
     # set obstacle positions for group 8
     # ox, oy = [], []
     # for i in range(-10, 60): # draw the button border 
@@ -357,22 +331,19 @@ def main():
     for i in range(-10, 60): # draw the button border 
         ox.append(i)
         oy.append(-10.0)
-    for i in range(-10, 60): # draw the right border
+    for i in range(-10, 61): # draw the right border
         ox.append(60.0)
         oy.append(i)
     for i in range(-10, 60): # draw the top border
         ox.append(i)
         oy.append(60.0)
-    for i in range(-10, 60): # draw the left border
+    for i in range(-10, 61): # draw the left border
         ox.append(-10.0)
         oy.append(i)
 
-
-     # draw the free border
-     
     for i in range(-10, 60):
-        ox.extend(np.random.uniform(-10,60,11))
-        oy.extend([i,i,i,i,i,i,i,i,i,i,i])#Obstacles are generated randomly with reasonable density
+        ox.extend(xx)
+        oy.extend(yy)
     
     # for i in range(40, 45): # draw the button border 
     #     ox.append(i)
@@ -381,10 +352,10 @@ def main():
 
     # set cost intesive area 1
     tc_x, tc_y = [], []
-    for i in range(0,0):
-        for j in range(0,0):
-            tc_x.append(0)
-            tc_y.append(0)
+    for i in range(0, 0):
+        for j in range(0, 0):
+            tc_x.append(i)
+            tc_y.append(j)
     
     # set cost intesive area 2
     fc_x, fc_y = [], []
@@ -393,7 +364,7 @@ def main():
     for i in range(rn, rn+30):
         for j in range(rn2, rn2+30):
             fc_x.append(i)
-            fc_y.append(j)#the fuel-consuming area remains and generate it randomly with a fixed area
+            fc_y.append(j)
 
 
     if show_animation:  # pragma: no cover
@@ -401,17 +372,11 @@ def main():
         plt.plot(sx, sy, "og",zorder=4) # plot the start position 
         plt.plot(gx, gy, "xb",zorder=5) # plot the end position
         
-        plt.plot(fc_x, fc_y, "oy",zorder=1) # plot the cost intensive area 1
-        plt.plot(tc_x, tc_y, "or",zorder=2) # plot the cost intensive area 2
+        plt.plot(fc_x, fc_y, "oy",zorder=2) # plot the cost intensive area 2
+        plt.plot(tc_x, tc_y, "or",) # plot the cost intensive area 1
 
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
-
-
-
-        plt.grid(True) # plot the grid to the plot panel
-        plt.axis("equal") # set the same resolution for x and y axis 
-
 
     a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
     rx, ry = a_star.planning(sx, sy, gx, gy)
@@ -422,7 +387,5 @@ def main():
         plt.show() # show the plot
 
 
-
 if __name__ == '__main__':
     main()
-    
