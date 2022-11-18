@@ -166,7 +166,7 @@ Evene if the previous codes probably calculate the best x value and hence the be
 
 ![IMG-20221115-WA0013](https://user-images.githubusercontent.com/116084608/202359649-d8b52aa5-c71e-4d18-9b4d-a004f1dabca9.jpg)
 
-Even though, just adding codes will not make programme work since we have not put js_x and js_y with x at the "a_star" and "rx, ry, costapth" content in the code. Without putting them, programme could not proceed all calculations at the output since it has no such command. hHowever, changing this part which is showed in the screenshot, we make coding to include jet-stream too in the whole process.
+Even though, just adding codes will not make programme work since we have not put js_x and js_y with x at the "a_star" and "rx, ry, costapth" content in the code. Without putting them, programme could not proceed all calculations at the output since it has no such command. However, changing this part which is showed in the screenshot, we make coding to include jet-stream too in the whole process.
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
