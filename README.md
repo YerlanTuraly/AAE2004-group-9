@@ -105,7 +105,12 @@ Those two rows are accountable for the percentage charge of going through these 
 ## Task 2
 **Goal**: To design a new cost area that can reduce the cost of the route.
 
-**Background**: There are certain areas called jet-streams where aircraft could consume relatively less fuel. Jet streams are formed when warm air masses meet cold air masses in the atmosphere. Although, flying with the jet-stream would be quicker and more fuel-efficient. However if the aircraft arrives too early, circling on a holding patter over the airspace is not ideal. In contrast, if the jet stream is weak, flying against it would need more fuel and slow the aircraft down, perhaps resulting in delays. In this task we will aim to create a scenario where we can use the jet stream to our advantage in-order better grasp the concept of flight planning.
+**Background**: There are certain areas called jet-streams where aircraft will consume relatively less fuel while crusing. Jet streams is a narrow band of fast air circulating near the top of troposphere. They are formed when warm air masses meet cold air masses in the atmosphere. 
+
+![Jetstream](https://user-images.githubusercontent.com/116084608/202598116-c83647e8-f8cb-440f-922f-ac3f7056fa99.jpeg)
+(**Image-source**: Lotus Arise. (2020, July 24). Jet Stream UPSC: Geography IAS (Climatology). https://lotusarise.com/jet-stream-upsc/. https://lotusarise.com/jet-stream-upsc/)
+
+Although, flying with the jet-stream would be quicker and more fuel-efficient. However if the aircraft arrives too early, circling on a holding patter over the airspace is not ideal. In contrast, if the jet stream is weak, flying against it would need more fuel and slow the aircraft down, perhaps resulting in delays. In this task we will aim to create a scenario where we can use the jet stream to our advantage in-order better grasp the concept of flight planning.
 
 **Methodology**: Taking the scenario from [Task 1](#task-1) as a background, we had to find the best place to set the jet stream where the cost of the flight is reduced by 5%. The recommended parameters are that the jet stream region stretch across the map laterally and span 5-units vertically.
 
