@@ -295,9 +295,9 @@ def main():
     xxx =[]
     while len(xxx) < 1000:
         aaa = random.uniform(-10,60)
-        if aaa < sx+2 and aaa > sx-2:
+        if aaa < sx+1 and aaa > sx-1:
             continue
-        if aaa < gx+2 and aaa > gx-2:
+        if aaa < gx+1 and aaa > gx-1:
             continue
         else :
             xxx.append(aaa)
