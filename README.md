@@ -62,7 +62,7 @@ Those two rows are accountable for the percentage charge of going through these 
 
 ![IMG-20221115-WA0006](https://user-images.githubusercontent.com/116084608/202359228-77b299ba-fbce-49d8-b555-7ae1da43fe6d.jpg)
 
-Here, starting from row 6 we have added many constants in the code. Firts of all, the most essential part is time. The code here already calculates the total amount of time that is necessary for the path ("current.cost"), so we just named this value by T, simplifying our future coding formulas. 
+Here, starting from row 6 we have added many constants in the code. First of all, the most essential part is time. The code here already calculates the total amount of time that is necessary for the path ("current.cost"), so we just named this value by T, simplifying our future coding formulas. 
 
 As we have 3 different scenarios with 3 different aircrafts, I have written each constant for each aircraft separately, making it more easier to understand and change in the future; here we can note the constant values of A321neo aircraft, where I have added its Fuel consumption, capacity, different cost time, and fixed cost values, which will be used in the formulas presented in the next photo.
 
@@ -82,7 +82,7 @@ This part is the most simple and easy one. Here we just put our coordinates of s
 
 ![IMG-20221115-WA0009](https://user-images.githubusercontent.com/116084608/202359400-782e8248-40fb-490f-b277-eb1028a38bf0.jpg)
 
-This code represents the obstacles that do not let aircraft to fly throught them. For example, the second obstacle. As we can note from the gif, there are only 3 additional obstacles in our map, where two of them are lines with a slope. Setting its range from 40 to 50 at x coordinates, we have to put it like shown above "for i in range(40, 50):", continuing it by "ox.append". In "ox.append", we just need to i in bracets, while in "oy.append" we have to input the equation which is obtained. It is a "-2*i +140", where i represents x, -2 is the slope of this line in range of 40 to 50, and +140 as a y-intercept. For getting those values, the slope and intercept. We have to use the basic equation from math, y = kx + b, and create a system that contains 2 uknown values k and b and hence find out them manually.
+This code represents the obstacles that do not let aircraft to fly throught them. For example, the second obstacle. As we can note from the gif, there are only 3 additional obstacles in our map, where two of them are lines with a slope. Setting its range from 40 to 50 at x coordinates, we have to put it like shown above "for i in range(40, 50):", continuing it by "ox.append". In "ox.append", we just need to i in bracets, while in "oy.append" we have to input the equation which is obtained. It is a "-2*i +140", where i represents x, -2 is the slope of this line in range of 40 to 50, and +140 as a y-intercept. For getting those values, the slope and intercept. We have to use the basic equation from math, y = kx + b, and create a system that contains 2 unknown values k and b and hence find out them manually.
 
 ![IMG-20221115-WA0010](https://user-images.githubusercontent.com/116084608/202359409-980aa882-7285-4b2a-8026-09531fa416da.jpg)
 
@@ -144,7 +144,7 @@ Although, flying with the jet-stream would be quicker and more fuel-efficient. H
 
 ![IMG-20221115-WA0011](https://user-images.githubusercontent.com/116084608/202359542-d97b9104-49c1-48ca-9c13-50e9b718d0ab.jpg)
 
-At this part, we add a new area, a jet stream area. Understanding that aircraft's path will be only between somewhere around 10 and 50(Those values are not exact, but very close), we have managed the x range between 10 and 49. Meanwhile, i is in range -10 till 60, which is probably the whole horizontal range of the map, we have managed the range of j as x and x+5 since the jet stream's size was only 5 points, where x is some uknown for us constant, so code should consider the whole pointed area for the most effective place to suit this stream. 
+At this part, we add a new area, a jet stream area. Understanding that aircraft's path will be only between somewhere around 10 and 50(Those values are not exact, but very close), we have managed the x range between 10 and 49. Meanwhile, i is in range -10 till 60, which is probably the whole horizontal range of the map, we have managed the range of j as x and x+5 since the jet stream's size was only 5 points, where x is some unknown for us constant, so code should consider the whole pointed area for the most effective place to suit this stream. 
 
 The last part of coding:
 
@@ -152,7 +152,7 @@ The last part of coding:
    lowest = costpath
    bestx = x"
 
-We make coding to start from coordinate 10, calculating a new costpath as the lowest one, and making this x, which is 10, as the best coordinate. Continuing, we have added the next part:
+We make coding to start from coordinate x, 10, calculating a new costpath as the lowest one, and making this x as the best coordinate. Continuing, we have added the next part:
 
 "if costpath < lowest:
    lowest = costpath
@@ -162,11 +162,11 @@ Here we just make the programme to calculate all possible values of x and compar
 
 ![IMG-20221115-WA0012](https://user-images.githubusercontent.com/116084608/202359563-2667faf4-3fb6-4e07-82d9-8d3c5f02d860.jpg)
 
-Evene if the previous codes probably calculate the best x value and hence the best area for fitting jet stream area, the code itself will not work, since it will take only the first value x, which is 10, and put it in all formulas without consideration of other values. It is why we have to add this part to make it elaborate. At that part, we mention j range from bestx and bestx+5 that are revealed from previous code, so now it is chooses best area for et stream basing on best x value.
+Even if the previous codes probably calculate the best x value and hence the best area for fitting jet stream area, the code itself will not work, since it will take only the first value x, which is 10, and put it in all formulas without consideration of other values. It is why we have to add this part to make it elaborate. At that part, we mention j range from bestx and bestx + 5 that are revealed from previous code, so now it chooses best area for the jet stream basing on the best x value.
 
 ![IMG-20221115-WA0013](https://user-images.githubusercontent.com/116084608/202359649-d8b52aa5-c71e-4d18-9b4d-a004f1dabca9.jpg)
 
-Even though, just adding codes will not make programme work since we have not put js_x and js_y with x at the "a_star" and "rx, ry, costapth" content in the code. Without putting them, programme could not proceed all calculations at the output since it has no such command. However, changing this part which is showed in the screenshot, we make coding to include jet-stream too in the whole process.
+Even though, just adding codes will not make programme work since we have not put js_x and js_y with x at the "a_star" and "rx, ry, costapth" content in the code. Without putting them, programme could not proceed all calculations at the output since it has no such command. However, changing this part which is showed in the screenshot, we are making our programme to include jet-stream too in the whole process.
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
@@ -216,7 +216,7 @@ In this part, we make the code search the most reliable results of both costs an
 
 ![IMG-20221115-WA0016](https://user-images.githubusercontent.com/116084608/202359709-08e7948e-25c2-4de2-9bdf-c02044a4f821.jpg)
 
-This formula is pretty similar with formulas in task 1 and 2, but here the coding can give either one of the solution which is probably describes all information that is needed. Already calculating the best number of passengers, the code proceeds its further calculation of the Total_cost of our new aircraft, by checking in which condition the capacity suits more. The part "if bestpassengers >= 300" makes coding to choose which type of new aircraft we should use to minimize our costs. If a new aircraft's capacity is higher, then coding print name of a new aircraft, the number of engines that it should possess, and the cost that it requires for operation. Moreover, it, also, prints the number of seats that is needed for the aircraft to fulfill requirements. Otherwise, if the number of passengers is lower than 300, as in our case, it swicthes to twin-engine aircraft, showing its passenger capacity and operational cost.  
+This formula is pretty similar with other formulas in task 1 and 2, but here the coding can give either one of the solution which probably describes all information that is needed. Already calculating the best number of passengers, the code proceeds its further calculation of the Total_cost of our new aircraft, by checking in which condition the capacity suits more. The part "if bestpassengers >= 300" makes coding to choose which type of new aircraft we should use to minimize our costs. If a new aircraft's capacity is higher, then coding print name of a new aircraft, the number of engines that it should possess, and the cost that it requires for operation. Moreover, it, also, prints the number of seats that is needed for the aircraft to fulfill requirements. Otherwise, if the number of passengers is lower than 300, as in our case, it swicthes to twin-engine aircraft, showing its passenger capacity and operational cost.  
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
