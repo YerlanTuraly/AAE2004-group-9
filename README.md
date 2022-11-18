@@ -82,7 +82,7 @@ This part is the most simple and easy one. Here we just put our coordinates of s
 
 ![IMG-20221115-WA0009](https://user-images.githubusercontent.com/116084608/202359400-782e8248-40fb-490f-b277-eb1028a38bf0.jpg)
 
-
+This code represents the obstacles that do not let aircraft to fly throught them. 
 
 ![IMG-20221115-WA0010](https://user-images.githubusercontent.com/116084608/202359409-980aa882-7285-4b2a-8026-09531fa416da.jpg)
 
