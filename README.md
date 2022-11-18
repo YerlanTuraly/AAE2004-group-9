@@ -54,10 +54,14 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 This is the most efficent flight plan that our group has formulated.
 ![gifv2](https://user-images.githubusercontent.com/116061877/200487324-6ef257dd-fb34-4669-9df2-e9cdba3829ab.gif)
 
-**Coding**:
+**Coding part**:
 
 >![IMG-20221115-WA0005](https://user-images.githubusercontent.com/116084608/202359218-bb89ef6b-bb16-41a1-ba1f-50b204c73ea7.jpg)
+
+Those two rows are accountable for the percentage charge of going through these two cost intensive areas, cost and time zones. In each row we can detect C1 and C2 which represents own intensive areas. After the part "self.Delta_C1" we wrote numbers such as 0.2 and 0.4 which represent 20% and 40$ respectively, but in numerical aspect. For example, when the aircraft will fly over time intensive area, every point in it will increase tspent amount of time by 20%; however, if you are eager you to change those charges to another one, you can just replace it here to any other value.  
 ![IMG-20221115-WA0006](https://user-images.githubusercontent.com/116084608/202359228-77b299ba-fbce-49d8-b555-7ae1da43fe6d.jpg)
+
+
 ![IMG-20221115-WA0007](https://user-images.githubusercontent.com/116084608/202359260-39ebbaa4-ed1a-4e5d-bcdc-d5aaa1b999a7.jpg)
 ![IMG-20221115-WA0008](https://user-images.githubusercontent.com/116084608/202359371-031b45c8-a16d-427b-a357-846365976e93.jpg)
 ![IMG-20221115-WA0009](https://user-images.githubusercontent.com/116084608/202359400-782e8248-40fb-490f-b277-eb1028a38bf0.jpg)
@@ -111,7 +115,7 @@ This is the most efficent flight plan that our group has formulated.
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/116061877/200550990-c1e6800d-d076-4813-be21-ff3ba1aaaa21.gif)
 
 
-**Coding**:
+**Coding part**:
 
 ![IMG-20221115-WA0011](https://user-images.githubusercontent.com/116084608/202359542-d97b9104-49c1-48ca-9c13-50e9b718d0ab.jpg)
 
@@ -161,7 +165,7 @@ A potential design for the aircraft
 
 **Reasons Behind**: By comparing other existing aircraft which may be possible candidates for this role such as the A321, A330, A340, A350 and the B787. We determined that an aircraft with a moderate seating capacity and twin-engine layout would be the most efficient. As such we designed our aircraft to have a capacity between the A330-200 (250 seats) and the b787-9 (296 seats), so our group initially assumed that an aircraft with a 275-seating capacity will expend the lowest possible cost. A twin-engine design was favoured due to examing the efficency of the A340 and A350, one had an inefficient quad engine layout whiles the other had a very efficent twin engine layout which help boost its overall appeal. As such it was an easy decision on which engine configuration to choose. To solidify our assumption, our group has written a code that calculates whether we need a twin-engine or 4-engine aircrfat with its capacity and operational cost. Hence we have designed our aircraft the B797 to follow our setout guidelines and to comply with the guidelines of the task.
 
-**Coding**:
+**Coding part**:
 
 ![IMG-20221115-WA0014](https://user-images.githubusercontent.com/116084608/202359677-9eea788e-3ec3-43e5-b214-b0bd23ba06b7.jpg)
 
