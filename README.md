@@ -41,7 +41,7 @@ Boey - "boeytse"
 
 ## About the project
 
-As efficiency in cost and passanger satisfaction are a crucial factor that determines the sucess of airlines. This project is primarily focused on finding the most an efficeint pathway for a flight under various realworld circumstances using technologies and methods that are easily acessible.
+As efficiency in cost and passanger satisfaction are a crucial factor that determines the success of airlines. This project is primarily focused on finding the most an efficent pathway for a flight under various realworld circumstances using technologies and methods that are easily accessible.
 
 
 
@@ -245,7 +245,8 @@ The initiative allowed me to get to know some extremely wonderful and selfless 
 
 
 
-**Frederick's Reflection:** 
+**Frederick's Reflection:** Before doing this project, I thought coding is irrelevant to Aviation Engineering this is my first time knowing about coding. Initially, what I was hoping is that after I had finished this project, I don’t need to ‘keep in touch’ with coding anymore. In the first lesson, I downloaded the VS Code to familiarize myself and also it lets me communicate with my groupmates easily. Personally, I hate using a computer so much. Therefore, I spent a lot of time learning how to use the VS Code but there were many technical issues existed and I feel helpless at that time. Luckily, my groupmates are generous and they help me to fix the issue. After that, I successfully finished some parts of task 1 such as editing both the start node and goal node. After that, I did task 3 in the readme to explain which aircraft we selected to best fit Scenario 1 in task 1 and the reason why we had selected this aircraft. I collected some information from my groupmates related to calculation parts and summarize it in the readme. Trends, results and reasons etc. had been explained deeply in the readme to support why we had selected B797 to minimize the costs for task 1.
+In this project, what I learned is that coding took an important role not just in our course, it also affected the whole world. For example, in our project, we are required to use coding to solve three tasks these three tasks are really complicated or even impossible if it is solved by our own hands. Therefore, we need to overcome any challenges as using advanced technologies will be a trend in the real world situation. Moreover, to determine whether an airline is successful or not, there are many factors we need to consider.
 
 
 **Jophy's Reflection:**     As I was majorly focus on the calculations part in Task 1 and Task 3, as well as deciding the type of aircraft we would like to design, this project really opened my eyes up on the algorithms behind the aviation industry in order to strive for profit maximization due to the skyrocketting fuel price and meeting the market demand. It was never an easy task to decide the best aircraft for the route due to all sorts of constraints, let alone designing a new aircraft that will fit the exsisting market. In the project our group has discussed a lot on whether a smaller twin-engine aircraft or a larger quad-engine aircraft will best fit this scenario we are given as well as the future trends in the world of aviation.
