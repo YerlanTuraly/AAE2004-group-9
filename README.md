@@ -174,6 +174,7 @@ Even though, just adding codes will not make programme work since we have not pu
 **Goal**: To design a new aircraft model that achieves minimum costs for the specific scenarios in [Task1](#task-1).
 
 **Trend**: According to the fuel price analysis, the fuel cost in 2022 had increased a total of 73.7% compared to 2021 which indicated that jumbo jets like B747 or A380 should not be considered in this task.
+![image](https://user-images.githubusercontent.com/116059527/202887053-3c2f0643-ecfd-469a-8507-72be0f2ae950.png)
 
 **Results**: The aircraft B797 using twin RR Trent 1000 engine is the best fit for scenario 1 in task 1 as this aircraft is able to meet the cost specification between A321 & A330. The targetted no of flights is 11 with 273 passengers per flight.
 
