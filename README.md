@@ -140,7 +140,7 @@ Although, flying with the jet-stream would be quicker and more fuel-efficient. H
 
 ![WhatsApp Image 2022-11-22 at 3 00 35 AM](https://user-images.githubusercontent.com/111409650/203145395-0d197ca5-983b-42d7-a4b3-3560fb0f01b0.jpeg)
 
-Here, we can see that by the jet stream area, we can probably save more than a thousand usd by using A350-900 rather than without this jet stream area.
+Here, we can see that by the jet stream area, we can probably save more than a thousand usd by using A350-900 rather than without this jet stream area. A350-900 requires only 80096 usd, while in task1 scenario one it would ask us for 91000 usd for carrying all passengers! Furthemore, A321neo is still not viable for this route.
 
 
 **Coding part**:
