@@ -138,7 +138,7 @@ Although, flying with the jet-stream would be quicker and more fuel-efficient. H
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/116061877/200550990-c1e6800d-d076-4813-be21-ff3ba1aaaa21.gif)
 
-![Calc](img width="388" alt="image" src="https://user-images.githubusercontent.com/111409650/203144992-6a2824b3-2532-41e6-86d4-3954d3613338.png")
+![WhatsApp Image 2022-11-22 at 3 00 35 AM](https://user-images.githubusercontent.com/111409650/203145395-0d197ca5-983b-42d7-a4b3-3560fb0f01b0.jpeg)
 
 Here, we can see that by the jet stream area, we can probably save more than a thousand usd by using A350-900 rather than without this jet stream area.
 
