@@ -235,6 +235,8 @@ This formula is pretty similar with other formulas in task 1 and 2, but here the
 
 **Results**:
 
+![ad2 opt](https://user-images.githubusercontent.com/116061877/203242085-bc0add2a-a12f-40eb-85fb-5b92f3cc6c81.gif)
+
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 3
@@ -243,6 +245,17 @@ This formula is pretty similar with other formulas in task 1 and 2, but here the
 **Methodology**: We have to choose additional 2 different algorithms from the GitHub platform and compare all 3 codes with outcomes together, with the same obstacle deisgn.
 
 **Results**:
+Results for A*:
+
+![ad3 star](https://user-images.githubusercontent.com/116061877/203242338-9a1b83e7-957b-4b4e-981a-47216ca34aff.gif)
+
+Results for BFS:
+
+![ad3 bjn](https://user-images.githubusercontent.com/116061877/203242432-21cb67b1-c7e1-4cda-8513-08a82cc55c4f.gif)
+
+Results for Dijkstra (speed up by x3):
+
+![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/116061877/203242548-13ea08f7-16a6-4827-8540-3cfacd3ab60d.gif)
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
