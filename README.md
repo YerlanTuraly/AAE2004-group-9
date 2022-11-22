@@ -227,18 +227,18 @@ This formula is pretty similar with other formulas in task 1 and 2, but here the
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 2
-**Goal**: To generate new paths for aircraft in changing conditions and start with end points at each scenario
+**Goal**: To generate new paths for aircraft in changing conditions and start with end points at each scenario.
 
-**Methodology**:
+**Methodology**: We have to create a code that could be able to generate different conditions with reasonable density with start and goal coordinates at every different cases. Meanwhile, there should be only fuel-consuming area with fixed area 30x30. Moreover, diagonal movement of aricraft should be disabled in this part of task.
 
 **Results**:
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 3
-**Goal**: To test other unalike algorithms for finding the most efficient path
+**Goal**: To test other unalike algorithms for finding the most efficient path.
 
-**Methodology**:
+**Methodology**: We have to choose additional 2 different algorithms from the GitHub platform and compare all 3 codes with outcomes together, with the same obstacle deisgn.
 
 **Results**:
 
