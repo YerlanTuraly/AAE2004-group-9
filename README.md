@@ -29,7 +29,7 @@ Boey - "boeytse"
 ## Content
 
 * [About The Project](#about-the-project)
-* [YouTube Video](#YouTube-Video)
+* [Project Video](#Project-Video)
 * [Task 1](#task-1)
 * [Task 2](#task-2)
 * [Task 3](#task-3)
@@ -48,6 +48,8 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 
 ## Project Video
 
+
+We have included only compulsory tasks in our presentation even if additional tasks are done. As those tasks are mandatory, while additional tasks are only optional. It is a reason, why we have decided to exclude additional tasks from our presentation, but you can check the information and resutls of those tasks in our readme reflection!
 
 ## Task 1
 **Goal**: To find an appropriate aircraft model that can achieve minimum cost for each given scenario. 
