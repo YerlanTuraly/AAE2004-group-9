@@ -258,9 +258,11 @@ We can see here that it is normal A* planning outcome, that we used in our compu
 
 
 
-**Results for Dijkstra (speed up by x3**
+**Results for Dijkstra (speed up by x3)**:
 
 ![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/116061877/203242548-13ea08f7-16a6-4827-8540-3cfacd3ab60d.gif)
+
+Already seeing 3 different codings' outcomes, we wan to sum up that the Dijkstra is the code that finds a path much longer than other two repositories. Meanwhile, A* planning is the best programme that can be chosen for our tasks. It is why we can conclude that choosing A* path planning was the best decision for our project.
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
