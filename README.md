@@ -33,6 +33,8 @@ Boey - "boeytse"
 * [Task 1](#task-1)
 * [Task 2](#task-2)
 * [Task 3](#task-3)
+* [Additional Task 2](#additional-task-2)
+* [Additional Task 3](#additional-task-3)
 * [Usage](#Usage)
 * [Reflections](#Reflections)
 * [Contacts](#contacts)
@@ -221,6 +223,14 @@ In this part, we make the code search the most reliable results of both costs an
 ![IMG-20221115-WA0016](https://user-images.githubusercontent.com/116084608/202359709-08e7948e-25c2-4de2-9bdf-c02044a4f821.jpg)
 
 This formula is pretty similar with other formulas in task 1 and 2, but here the coding can give either one of the solution which probably describes all information that is needed. Already calculating the best number of passengers, the code proceeds its further calculation of the Total_cost of our new aircraft, by checking in which condition the capacity suits more. The part "if bestpassengers >= 300" makes coding to choose which type of new aircraft we should use to minimize our costs. If a new aircraft's capacity is higher, then coding print name of a new aircraft, the number of engines that it should possess, and the cost that it requires for operation. Moreover, it, also, prints the number of seats that is needed for the aircraft to fulfill requirements. Otherwise, if the number of passengers is lower than 300, as in our case, it swicthes to twin-engine aircraft, showing its passenger capacity and operational cost.  
+
+<p align="right">(<a href="#readme">back to top</a>)</p>
+
+## Additional Task 2
+
+<p align="right">(<a href="#readme">back to top</a>)</p>
+
+## Additional Task 3
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
