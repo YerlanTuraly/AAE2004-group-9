@@ -227,7 +227,7 @@ This formula is pretty similar with other formulas in task 1 and 2, but here the
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 2
-**Goal**:
+**Goal**: To generate new paths for aircraft in changing conditions and start with end points at each scenario
 
 **Methodology**:
 
@@ -236,7 +236,7 @@ This formula is pretty similar with other formulas in task 1 and 2, but here the
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 3
-**Goal**:
+**Goal**: To test other unalike algorithms for finding the most efficient path
 
 **Methodology**:
 
