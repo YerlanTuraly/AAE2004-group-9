@@ -265,8 +265,7 @@ Thus, we are able to optimize the cost and the revenue of each flight as it can 
   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Tim's Reflection:** 
-
+**Tim's Reflection:** When the teacher told me I have to do coding like the sample he showed, I was shocked since I didn't do programming before. Luckily I don't need to start from nothing , he provided some basic A* path finding algorithms for us. I discover that it is no that difficult, in fact I change some values and it run perfectly. I was so happy at the time I successfully run the code. I also find coding is so interesting therefore spending some time to do research. As I am doing additional task 2 and 3 coding ,it help enhancing my skill and make me confidence on coding. I really enjoy being part of this project and helping with the coding . Once again I am so thankful for all the hard work everyone has done in this project. Also I gain useful skills and make a lot of friends.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Boey's Reflection:** 
