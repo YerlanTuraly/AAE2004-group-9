@@ -248,17 +248,17 @@ As we can see here, it is one of the possible maps of randomly generated obstacl
 
 **Result for A***:
 
-![ad3 star](https://user-images.githubusercontent.com/116061877/203242338-9a1b83e7-957b-4b4e-981a-47216ca34aff.gif)
+![ad3 star](https://user-images.githubusercontent.com/116061877/203325855-2e52a6e9-39b3-47f9-8398-0d1cb574b051.gif)
 
 We can see here that it is normal A* planning outcome, that we used in our compulsory tasks. Comparing with the next two repositories from GitHub, we can clearly notice that A* planning is the fastest programme in terms of time to find the goal point.
 
-**Result for BFS**:
+**Result for BFS (sped up by x5)**:
 
-![ad3 bjn](https://user-images.githubusercontent.com/116061877/203242432-21cb67b1-c7e1-4cda-8513-08a82cc55c4f.gif)
+![ad3 bnj opt](https://user-images.githubusercontent.com/116061877/203325929-1243684f-df51-4270-b470-de75af62491d.gif)
 
 Certainly, BFS takes longer time than A* planning, but it still takes relatively appropriate amount of time for calculating and finding the final pathway from our star point to the final one. Nevertheless, if we compare those two programmes, we would like to suggest everyone to use A* path planning since it will take less amount of time.
 
-**Results for Dijkstra (speed up by x3)**:
+**Results for Dijkstra (sped up by x3)**:
 
 ![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/116061877/203242548-13ea08f7-16a6-4827-8540-3cfacd3ab60d.gif)
 
