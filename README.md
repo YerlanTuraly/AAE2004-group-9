@@ -227,10 +227,20 @@ This formula is pretty similar with other formulas in task 1 and 2, but here the
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 2
+**Goal**:
+
+**Methodology**:
+
+**Results**:
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 3
+**Goal**:
+
+**Methodology**:
+
+**Results**:
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
