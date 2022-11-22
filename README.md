@@ -237,6 +237,8 @@ This formula is pretty similar with other formulas in task 1 and 2, but here the
 
 ![ad2 opt](https://user-images.githubusercontent.com/116061877/203242085-bc0add2a-a12f-40eb-85fb-5b92f3cc6c81.gif)
 
+As we can see here, it is one of the possible maps of randomly generated obstacles with start and goal points. The path planning analysis all possible ways to reach the final destination, bypassing all obtsacles that are black dotes. Furthemore, the programme was managed that way, so obstacles would be generated with appropriate density, where aircraft would not struggle find the shortest way, but still would have to search one. Running the code that is uploaded above, we can try as many times, as we want, and see at the end that programme continuously generates different and unalike variations of our path. 
+
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 3
