@@ -256,13 +256,13 @@ We can see here that it is normal A* planning outcome, that we used in our compu
 
 ![ad3 bnj opt](https://user-images.githubusercontent.com/116061877/203325929-1243684f-df51-4270-b470-de75af62491d.gif)
 
-Certainly, BFS takes longer time than A* planning, but it still takes relatively appropriate amount of time for calculating and finding the final pathway from our star point to the final one. Nevertheless, if we compare those two programmes, we would like to suggest everyone to use A* path planning since it will take less amount of time.
+Certainly, BFS takes much longer time than A* planning, it takes relatively a long amount of time for calculating and finding the final pathway from our star point to the final one. We even speeded up the process by 5 for our github. Nevertheless, if we compare those two programmes, we would like to suggest everyone to use A* path planning since it takes significantly less amount of time.
 
 **Results for Dijkstra (sped up by x3)**:
 
 ![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/116061877/203242548-13ea08f7-16a6-4827-8540-3cfacd3ab60d.gif)
 
-Already seeing 3 different codings' outcomes, we wan to sum up that the Dijkstra is the code that finds the aircraft's path flight much longer than other two repositories. Even though Dijkstra path finding programme searches a path so long, the BFS, also, takes some time for own calculations and searching for the final path; however, it is crystal clear that A* planning is the best programme that can be chosen for our tasks. As it reaches the goal point in the shortest possible way. It is why we can conclude that choosing A* path planning was the best decision for our project.
+Already seeing 3 different codings' outcomes, we wan to sum up that the Dijkstra is the code that finds the aircraft's path flight longer than othe A* path planning, but significantly faster than BFS, even if Dijkstara was speeded up by 3 times. Even though Dijkstra path finding programme searches a path so long, the BFS takes much more time for own calculations and searching for the final path; however, it is crystal clear that A* planning is the best programme that can be and have to be chosen for our tasks. As it reaches the goal point in the shortest possible way. It is why we can conclude that choosing A* path planning was the best decision for our project coding part.
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
