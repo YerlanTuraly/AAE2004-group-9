@@ -47,7 +47,8 @@ As efficiency in cost and passanger satisfaction are a crucial factor that deter
 
 
 ## Project Video
-![video](https://youtu.be/oVIgmGrZtqs)
+
+
 
 We have included only compulsory tasks in our presentation even if additional tasks are done. As those tasks are mandatory, while additional tasks are only optional. It is a reason, why we have decided to exclude additional tasks from our presentation, but you can check the information and resutls of those tasks in our readme reflection!
 
