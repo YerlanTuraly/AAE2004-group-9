@@ -5,7 +5,7 @@
 ## Members
 
 **Leader:** 
-Yerlan - "captainnccrruunncchh"
+Yerlan - "YerlanTuraly"
 
 **Member 2:** 
 Namnet - "NamnetT"
