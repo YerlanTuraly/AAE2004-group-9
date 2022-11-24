@@ -339,6 +339,6 @@ Thus, we are able to optimize the cost and the revenue of each flight as it can 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Project Status
-Project is in progress. Compulsory coding tasks, two additional coding tasks, ReadMe, and presentation are done. Video is in production.
+Project is done.
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
