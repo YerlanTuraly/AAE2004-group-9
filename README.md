@@ -362,4 +362,8 @@ Thus, we are able to optimize the cost and the revenue of each flight as it can 
 ## Project Status
 Project is finished.
 
+<p align = "middle">
+  <img src = "Coding.gif" alt = "animated" width = 600 height = 300/>
+</p>
+
 <p align="right">(<a href="#readme">back to top</a>)</p>
