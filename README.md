@@ -363,7 +363,7 @@ Thus, we are able to optimize the cost and the revenue of each flight as it can 
 Project is finished.
 
 <p align = "middle">
-  <img src = "Group.gif" alt = "animated" width = 600 height = 300/>
+  <img src = "bye.gif" alt = "animated" width = 600 height = 450/>
 </p>
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
