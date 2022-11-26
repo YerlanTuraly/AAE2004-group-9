@@ -61,6 +61,15 @@ This is the most efficent flight plan that our group has formulated.
 ![gifv2](https://user-images.githubusercontent.com/116061877/200487324-6ef257dd-fb34-4669-9df2-e9cdba3829ab.gif)
 
 **Coding Section**:
+<p align = "middle">
+Now, we will start talking about the coding part of our project
+</p>
+
+<p align = "middle">
+  <img src = "Coding.gif" alt = "animated" width = 600 height = 300/>
+</p>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 >![IMG-20221115-WA0005](https://user-images.githubusercontent.com/116084608/202359218-bb89ef6b-bb16-41a1-ba1f-50b204c73ea7.jpg)
 
