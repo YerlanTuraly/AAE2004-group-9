@@ -44,7 +44,7 @@ Boey - "boeytse"
 
 ## About the project
 <p align = "middle">
-  <img src = "Group_9.gif" alt = "animated" width = 600 height = 300/>
+  <img src = "R.gif" alt = "animated" width = 600 height = 300/>
 </p>
 As efficiency in cost and passanger satisfaction are a crucial factor that determines the success of an airline. But, getting from point A to Point B is not as simple as flying the passengers and cargo from destination A to destination B in a safe and timely manner. The airspace which is basically the vast span of sky that we see whenever we look overhead is claimed by countries that reside below the patch of sky as their territory, which often extends around FL600. Therefore, entering an airspace without prior authorization would be a violation of the respective nation's sovereignty. Fortunately, we have the Five Freedom of Air that facilitates the aviation industry, but the airlines have to pay for the charges of flying into foreign airspace. Additionally, there are various physical barriers such as high terrain like hills and mountains, area with critically bad weather, even high-rise skyscrapers that can limit the mobility of the path that an aircraft can take during takeoff and landing. This project is primarily focused on finding the best efficent pathway for a flight under various real-world circumstances using technologies and methods that are easily accessible. 
 
