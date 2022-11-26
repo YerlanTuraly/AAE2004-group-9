@@ -262,6 +262,12 @@ This formula is pretty similar with other formulas in task 1 and 2, but here the
 
 As we can see here, it is one of the possible maps of randomly generated obstacles with start and goal points. The path planning analysis all possible ways to reach the final destination, bypassing all obtsacles that are black dotes. In addition, in that case fuel-intensive area was generated almost at the centre of our map, making it much harder for the aircraft to find the goal point. Even though this area is placed almost at the centre, programme found that bypassing this zone is better option for us than going through it. Furthemore, the programme was managed that way, so obstacles would be generated with appropriate density, where aircraft would not struggle find the shortest way, but still would have to search one. Running the code that is uploaded above, we can try as many times, as we want, and see at the end that programme continuously generates different and unalike variations of our path. 
 
+Weather always changes, sometimes some air zones are closed for aircraft to fly through them since it can endanger not only the airframe but also the life of passengers. Let's take typhoon for example, here we can see how it goes from the west to the east, also, seeing the different zones with unalikely colours such as blue, green, yellow, red, and dark grey with black. Meanwhile, the aircraft cannot even approach to the yellow zone, so it has to find a new, shortest way to bypass all of those dangerous and hazardous for aeroplane and people zones. 
+
+<p align = "middle">
+  <img src = "D.gif" alt = "animated" width = 600 height = 450/>
+</p>
+
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 3
