@@ -103,6 +103,7 @@ This code represents the obstacles that do not let aircraft to fly throught them
 
 The last part of code that should be mentioned is setting of intensive areas. Let's consider only cost intensive area 1 since they both pretty similar in the code content. The second row, "for i in range(-10, 10)" we have set the coordinates of our time intesinve area  between -10 and 10 of x values. Consequently, the next row "for j in range(20, 40)" we have, also, set coordinates ranging from 20 to 40 in y coordinate terms. Meanwhile, next two rows with "append" content are essential for seting up this area in our final map calculation.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Scenario 1
 
@@ -114,6 +115,8 @@ The last part of code that should be mentioned is setting of intensive areas. Le
 
 ![t1](https://user-images.githubusercontent.com/116061877/200476914-79e418d0-d2c1-4277-a744-4918da13b3f3.jpeg)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Scenario 2
 
 **Methodology**: We first setup our obstacles and cost intensive areas, which represent physical or environmental barriers and areas that should be avoided to maximize performance. Then we used a function where Cost(C) = C<sub>F</sub>· ΔF · T<sub>best</sub> + C<sub>T</sub> . T<sub>best</sub> +C<sub>c</sub>,  where C<sub>F</sub> represents the cost of fuel, ΔF is the fuel required to complete the trip,  T<sub>best</sub> is the most efficient time, C<sub>T</sub> is the time related cost per minute of flight, and C<sub>c</sub> represents the fixed cost independent of time.
@@ -124,6 +127,7 @@ The last part of code that should be mentioned is setting of intensive areas. Le
 
 ![Scenario 2](https://user-images.githubusercontent.com/116084608/200457503-f5a6cb2a-30f1-4fdb-aca1-a79115e0227c.jpg)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Scenario 3
 
