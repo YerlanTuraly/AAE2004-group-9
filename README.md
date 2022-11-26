@@ -346,6 +346,6 @@ Thus, we are able to optimize the cost and the revenue of each flight as it can 
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Project Status
-Project is done.
+Project is finished.
 
 <p align="right">(<a href="#readme">back to top</a>)</p>
