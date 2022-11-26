@@ -268,6 +268,8 @@ As we can see here, it is one of the possible maps of randomly generated obstacl
 
 Weather always changes, sometimes some air zones are closed for aircraft to fly through them since it can endanger not only the airframe but also the life of passengers. Let's take typhoon for example, here we can see how it goes from the west to the east, also, seeing the different zones with unalikely colours such as blue, green, yellow, red, and dark grey with black. Meanwhile, the aircraft cannot even approach to the yellow zone, so it has to find a new, shortest way to bypass all of those dangerous and hazardous for aeroplane and people zones. 
 
+Thus, I think this is quite vital coding for all airplanes that fly through continuously changing weatehr conditions.
+
 <p align="right">(<a href="#readme">back to top</a>)</p>
 
 ## Additional Task 3
